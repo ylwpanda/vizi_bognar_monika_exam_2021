@@ -6,7 +6,7 @@ import pages.LoginPage;
 import pages.SignedInIMDB;
 import utils.Utils;
 
-import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.*;
 
 public class LoginTest extends BaseTest {
 
@@ -17,8 +17,8 @@ public class LoginTest extends BaseTest {
         loginPage.setEmail("monica.bognar@gmail.com");
         loginPage.setPassword("CodeCool2021");
         SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
-        //Utils.scrollDown(getDriver());
-        //signedInIMDB.getloginCheck();
-        //assertEquals(signedInIMDB.getloginCheck(), "Browse popular movies", "You are not logged in!");
+        Utils.scrollDown(getDriver());
+        signedInIMDB.getloginCheck();
+        assertTrue(signedInIMDB.getloginCheck().contains("Browse popular movies"), "You are not logged in!");
     }
 }

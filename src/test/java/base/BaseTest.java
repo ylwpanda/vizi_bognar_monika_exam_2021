@@ -30,6 +30,8 @@ public class BaseTest {
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-notifications");
+        options.addArguments("--incognito");
         driver = new ChromeDriver(options);
         driver.get("https://www.imdb.com/");
         driver.manage().window().maximize();
