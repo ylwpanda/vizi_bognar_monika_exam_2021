@@ -21,13 +21,15 @@ public class BaseTest {
 
     private WebDriver driver;
     protected HomePage homePage;
+    protected String email = "monica.bognar@gmail.com";
+    protected String password = "CodeCool2021";
 
     public WebDriver getDriver() {
         return driver;
     }
 
     @BeforeClass
-    public void setUp() {
+    public void setUp() { //setup chorme, incognito mode
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
@@ -46,8 +48,8 @@ public class BaseTest {
 
     }
 
-    /*@AfterClass
+    /*@AfterClass // closes all the browser windows opened by web driver
     public void tearDown() {
-        driver.close();
+        driver.quit();
     }*/
 }

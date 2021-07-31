@@ -14,8 +14,8 @@ public class LoginTest extends BaseTest {
     public void testSuccessfulLogin(){
         LoginPage loginPage = homePage.clickSignInPage();
         loginPage.setSingIn();
-        loginPage.setEmail("monica.bognar@gmail.com");
-        loginPage.setPassword("CodeCool2021");
+        loginPage.setEmail(email);
+        loginPage.setPassword(password);
         SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         Utils.scrollDown(getDriver());
         signedInIMDB.getloginCheck();
