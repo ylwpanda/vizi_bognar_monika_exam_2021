@@ -1,12 +1,12 @@
 package login;
 
 import base.BaseTest;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import pages.LoginPage;
 import pages.SignedInIMDB;
 import utils.Utils;
 
-import static org.testng.Assert.*;
 
 public class LoginTest extends BaseTest {
 
@@ -19,6 +19,6 @@ public class LoginTest extends BaseTest {
         SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         Utils.scrollDown(getDriver());
         signedInIMDB.getloginCheck();
-        assertTrue(signedInIMDB.getloginCheck().contains("CodeCool"), "You are not logged in!");
+        Assertions.assertTrue(signedInIMDB.getloginCheck().contains("CodeCool"), "You are not logged in!");
     }
 }
