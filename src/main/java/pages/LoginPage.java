@@ -2,17 +2,16 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
 public class LoginPage {
 
-    private WebDriver driver;
-    private By signInWithIMDB = By.xpath("//*[@id=\"signin-options\"]/div/div[1]/a[1]");
-    private By emailField = By.id("ap_email");
-    private By passwordField = By.id("ap_password");
-    private By loginButton = By.id("signInSubmit");
+    private final WebDriver driver;
+    private final By signInWithIMDB = By.xpath("//*[@id=\"signin-options\"]/div/div[1]/a[1]");
+    private final By emailField = By.id("ap_email");
+    private final By passwordField = By.id("ap_password");
+    private final By loginButton = By.id("signInSubmit");
 
     //constructor
     public LoginPage(WebDriver driver) {
@@ -38,7 +37,6 @@ public class LoginPage {
 
     //click on login button at sing-in page
     public SignedInIMDB clickLoginButton(){
-        WebDriverWait wait = new WebDriverWait(driver, 2);
         driver.findElement(loginButton).click();
         return new SignedInIMDB(driver);
     }

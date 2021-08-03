@@ -1,7 +1,7 @@
 package login;
 
 import base.BaseTest;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 import pages.LoginPage;
 import pages.SignedInIMDB;
 import utils.Utils;
@@ -19,6 +19,6 @@ public class LoginTest extends BaseTest {
         SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         Utils.scrollDown(getDriver());
         signedInIMDB.getloginCheck();
-        assertTrue(signedInIMDB.getloginCheck().contains("Browse popular movies"), "You are not logged in!");
+        assertTrue(signedInIMDB.getloginCheck().contains("CodeCool"), "You are not logged in!");
     }
 }

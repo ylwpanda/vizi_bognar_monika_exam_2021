@@ -1,17 +1,11 @@
 package logout;
 
-import base.BaseTest;
 import login.LoginTest;
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 import pages.LoginPage;
 import pages.LogoutPage;
 import pages.SignedInIMDB;
-import utils.Utils;
 
-import java.util.concurrent.TimeUnit;
-
-import static org.testng.Assert.assertTrue;
 
 public class LogoutTest extends LoginTest {
 
@@ -24,7 +18,7 @@ public class LogoutTest extends LoginTest {
         loginPage.setEmail(email);
         loginPage.setPassword(password);
         SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
-        Utils.waitForXMillis(30);
+        //Utils.waitForXMillis(30);
 
         logoutPage.clickProfileButton();
         logoutPage.clickLogoutButton();

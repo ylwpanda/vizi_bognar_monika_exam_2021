@@ -1,16 +1,12 @@
 package data;
 
 import base.BaseTest;
-import login.LoginTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.Test;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.junit.jupiter.api.Test;
 import pages.DataListing;
-import pages.HomePage;
 import pages.LoginPage;
 import pages.SignedInIMDB;
+import utils.FileUtils;
 
 public class DataListingTest extends BaseTest {
 
@@ -18,11 +14,12 @@ public class DataListingTest extends BaseTest {
 
   @Test
   public void testDataListing(){
-    LoginPage loginPage = homePage.clickSignInPage();
-    loginPage.setSingIn();
-    loginPage.setEmail(email);
-    loginPage.setPassword(password);
-    SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+    getDriver().get("https://www.imdb.com/");
+    //LoginPage loginPage = homePage.clickSignInPage();
+    //loginPage.setSingIn();
+    //loginPage.setEmail(email);
+    //loginPage.setPassword(password);
+    //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
     DataListing dataListing = homePage.clickDataListing();
     dataListing.setSearchField(dataSearch);
     dataListing.clickSearchButton();

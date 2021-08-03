@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class SearchPage {
 
-    private WebDriver driver;
+    private final WebDriver driver;
     private final By WatchListButtonOne = By.xpath("//*[@id=\"knownfor\"]/div[1]/div[1]/div/div");
     private final By WatchListButtonTwo = By.xpath("//*[@id=\"knownfor\"]/div[2]/div[1]/div/div");
     private final By WatchListButtonThree = By.xpath("//*[@id=\"knownfor\"]/div[3]/div[1]/div/div");

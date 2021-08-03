@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LogoutPage {
 
-    private WebDriver driver;
+    private final WebDriver driver;
     private final By profileButton = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/svg");
     private final By logoutButton = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[7]/span");
 

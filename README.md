@@ -9,16 +9,16 @@ tesztelési projektet kell elkészítenie, saját döntése alapján egy egyéni
 web alkalmazás alapján.
 A választott teszt alkalmazásnak legalább az alábbi funkcióit kell lefedni tesztekkel:
  Regisztráció
- Bejelentkezés
- Adatkezelési nyilatkozat használata
- Adatok listázása
+ Bejelentkezés ------ kész
+ Adatkezelési nyilatkozat használata ------- folyamatban
+ Adatok listázása ------- kész
  Több oldalas lista bejárása
  Új adat bevitel
- Ismételt és sorozatos adatbevitel adatforrásból
+ Ismételt és sorozatos adatbevitel adatforrásból ------ kész
  Meglévő adat módosítás
  Adat vagy adatok törlése
- Adatok lementése felületről
- Kijelentkezés
+ Adatok lementése felületről -------- kész
+ Kijelentkezés ------- kész
 A vizsgaremek benyújtásának módja:
 7/10
 A kész csomagot a vizsga előtt minimum 7 nappal kell a vizsgabizottsághoz

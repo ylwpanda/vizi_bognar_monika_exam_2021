@@ -3,11 +3,10 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import java.util.concurrent.TimeUnit;
 
 public class HomePage {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
     //constructor
     public HomePage(WebDriver driver){
@@ -26,7 +25,17 @@ public class HomePage {
         return new DataListing(driver);
     }
 
-    //clickLink method
+    public PrivacyPolicyPage privacyPolicyLink(){
+        clickLink("/html/body/div[2]/footer/div[2]/div[1]/div[3]/ul/li[5]/a");
+        return new PrivacyPolicyPage(driver);
+    }
+
+    public ProfileMenu clickProfileButton() {
+        clickLink("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/svg");
+        return new ProfileMenu(driver);
+    }
+
+        //clickLink method
     private void clickLink(String linkText){
         driver.findElement(By.xpath(linkText)).click();
     }

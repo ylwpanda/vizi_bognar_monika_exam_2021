@@ -1,0 +1,3 @@
+email = monica.bognar@gmail.com
+password = CodeCool2021
+dataSearch = Wes Anderson
