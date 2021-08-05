@@ -1,0 +1,8 @@
+modify/ModifyDataTest.class
+privacypolicy/PrivacyPolicyTest.class
+logout/LogoutTest.class
+login/LoginTest.class
+data/DataListingTest.class
+base/BaseTest.class
+search/searchTest.class
+profilemenu/ProfileMenuTest.class

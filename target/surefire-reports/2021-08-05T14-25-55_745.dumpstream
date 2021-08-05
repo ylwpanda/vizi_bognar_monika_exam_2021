@@ -1,0 +1,54 @@
+# Created at 2021-08-05T14:25:58.411
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created at 2021-08-05T14:25:58.413
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created at 2021-08-05T14:25:58.413
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created at 2021-08-05T14:25:58.944
+SLF4J: Class path contains multiple SLF4J bindings.
+
+# Created at 2021-08-05T14:25:58.945
+SLF4J: Found binding in [jar:file:/Users/YLWPanda/.m2/repository/org/slf4j/slf4j-jdk14/1.7.32/slf4j-jdk14-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+# Created at 2021-08-05T14:25:58.946
+SLF4J: Found binding in [jar:file:/Users/YLWPanda/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+# Created at 2021-08-05T14:25:58.946
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+# Created at 2021-08-05T14:25:58.957
+SLF4J: Class path contains multiple SLF4J bindings.
+
+# Created at 2021-08-05T14:25:58.959
+SLF4J: Found binding in [jar:file:/Users/YLWPanda/.m2/repository/org/slf4j/slf4j-jdk14/1.7.32/slf4j-jdk14-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+# Created at 2021-08-05T14:25:58.959
+SLF4J: Found binding in [jar:file:/Users/YLWPanda/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+# Created at 2021-08-05T14:25:58.960
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+# Created at 2021-08-05T14:25:58.960
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+
+# Created at 2021-08-05T14:25:58.961
+SLF4J: Class path contains multiple SLF4J bindings.
+
+# Created at 2021-08-05T14:25:58.961
+SLF4J: Found binding in [jar:file:/Users/YLWPanda/.m2/repository/org/slf4j/slf4j-jdk14/1.7.32/slf4j-jdk14-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+# Created at 2021-08-05T14:25:58.962
+SLF4J: Found binding in [jar:file:/Users/YLWPanda/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+# Created at 2021-08-05T14:25:58.962
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+# Created at 2021-08-05T14:25:58.966
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+
+# Created at 2021-08-05T14:25:58.978
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+

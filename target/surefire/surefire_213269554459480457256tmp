@@ -1,0 +1,9 @@
+#surefire_2
+#Thu Aug 05 14:25:58 CEST 2021
+basedir=/Users/YLWPanda/Desktop/Codecool/02. CC_automation_tester/Vizsgaremek/vizi_bognar_monika_vizsgaremek_2021
+junit.jupiter.extensions.autodetection.enabled=true
+allure.results.directory=/Users/YLWPanda/Desktop/Codecool/02. CC_automation_tester/Vizsgaremek/vizi_bognar_monika_vizsgaremek_2021/target/allure-results
+junit.jupiter.execution.parallel.config.strategy=dynamic
+user.dir=/Users/YLWPanda/Desktop/Codecool/02. CC_automation_tester/Vizsgaremek/vizi_bognar_monika_vizsgaremek_2021
+junit.jupiter.execution.parallel.enabled=true
+localRepository=/Users/YLWPanda/.m2/repository

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: profilemenu.ProfileMenuTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.725 s <<< FAILURE! - in profilemenu.ProfileMenuTest
+testProfileMenu  Time elapsed: 20.609 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="imdbHeader"]/div[2]/div[5]/div/label[2]/div/span"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.0.103', ip: 'fe80:0:0:0:80a:2ff3:119:6ac3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/9_/b046hj9s0wx...}, goog:chromeOptions: {debuggerAddress: localhost:53956}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c362b6617ff0ad660d401fd089abb1eb
+*** Element info: {Using=xpath, value=//*[@id="imdbHeader"]/div[2]/div[5]/div/label[2]/div/span}
+	at profilemenu.ProfileMenuTest.testProfileMenu(ProfileMenuTest.java:10)
+

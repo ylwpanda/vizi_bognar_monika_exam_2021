@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: logout.LogoutTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 63.311 s <<< FAILURE! - in logout.LogoutTest
+testSuccessfulLogout  Time elapsed: 21.773 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "pages.LogoutPage.clickProfileButton()" because "this.logoutPage" is null
+	at logout.LogoutTest.testSuccessfulLogout(LogoutTest.java:23)
+
