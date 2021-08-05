@@ -8,8 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class LogoutPage {
 
     private final WebDriver driver;
-    private final By profileButton = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/svg");
-    private final By logoutButton = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[7]/span");
+    private final By PROFILE_BUTTON = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/svg");
+    private final By LOGOUT_BUTTON = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[7]/span");
 
     //constructor
     public LogoutPage(WebDriver driver){
@@ -18,14 +18,14 @@ public class LogoutPage {
 
     //click on profile menu at homepage
     public void clickProfileButton() {
-        driver.findElement(profileButton).click();
+        driver.findElement(PROFILE_BUTTON).click();
         WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.presenceOfElementLocated(profileButton));
+        wait.until(ExpectedConditions.presenceOfElementLocated(PROFILE_BUTTON));
     }
 
     //click on sign-out in profile menu
     public void clickLogoutButton() {
-        driver.findElement(logoutButton).click();
+        driver.findElement(LOGOUT_BUTTON).click();
     }
 }
 

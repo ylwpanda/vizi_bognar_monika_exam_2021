@@ -8,15 +8,15 @@ A vizsgázónak a vizsgát megelőzően egy komplex web alkalmazás alapján fel
 tesztelési projektet kell elkészítenie, saját döntése alapján egy egyénileg választott
 web alkalmazás alapján.
 A választott teszt alkalmazásnak legalább az alábbi funkcióit kell lefedni tesztekkel:
- Regisztráció
+ Regisztráció ------ csak manuálsian
  Bejelentkezés ------ kész
- Adatkezelési nyilatkozat használata ------- folyamatban
+ Adatkezelési nyilatkozat használata ------- kész
  Adatok listázása ------- kész
- Több oldalas lista bejárása
- Új adat bevitel
+ Több oldalas lista bejárása --- kész
+ Új adat bevitel ------- kész
  Ismételt és sorozatos adatbevitel adatforrásból ------ kész
- Meglévő adat módosítás
- Adat vagy adatok törlése
+ Meglévő adat módosítás -------- kész
+ Adat vagy adatok törlése -------- kész
  Adatok lementése felületről -------- kész
  Kijelentkezés ------- kész
 A vizsgaremek benyújtásának módja:

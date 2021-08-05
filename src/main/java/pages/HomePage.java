@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 public class HomePage {
 
-    private final WebDriver driver;
+    private WebDriver driver;
 
     //constructor
     public HomePage(WebDriver driver){
@@ -26,13 +26,18 @@ public class HomePage {
     }
 
     public PrivacyPolicyPage privacyPolicyLink(){
-        clickLink("/html/body/div[2]/footer/div[2]/div[1]/div[3]/ul/li[5]/a");
+        clickLink("driver.findElement(//*[@id=\"imdbHeader-navDrawerOpen--desktop\"]/div");
         return new PrivacyPolicyPage(driver);
     }
 
     public ProfileMenu clickProfileButton() {
-        clickLink("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/svg");
+        clickLink("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/span");
         return new ProfileMenu(driver);
+    }
+
+    public SearchPage clickMenuButton(){
+        clickLink("//*[@id=\"imdbHeader-navDrawerOpen--desktop\"]");
+        return new SearchPage(driver);
     }
 
         //clickLink method

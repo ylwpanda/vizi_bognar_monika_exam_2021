@@ -10,8 +10,8 @@ import java.util.stream.Collectors;
 
 public class ProfileMenu {
 
-    private final WebDriver driver;
-    private final By profileButton = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/svg");
+    private WebDriver driver;
+    private final By PROFILE_BUTTON = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/svg");
 
     public ProfileMenu(WebDriver driver){
         this.driver = driver;
@@ -27,6 +27,6 @@ public class ProfileMenu {
     }
 
     private Select findProfileMenuOption(){
-        return new Select(driver.findElement(profileButton));
+        return new Select(driver.findElement(PROFILE_BUTTON));
     }
 }
