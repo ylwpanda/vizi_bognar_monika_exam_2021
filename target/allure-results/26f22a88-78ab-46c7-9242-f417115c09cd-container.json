@@ -1,0 +1,1 @@
+{"uuid":"26f22a88-78ab-46c7-9242-f417115c09cd","name":"deleteBioTest()","children":["a8b75b13-5973-4a6b-8c82-72f499b9a43f"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1628162947587,"stop":1628162958569}],"afters":[],"links":[],"start":1628162947480,"stop":1628162960102}
