@@ -23,7 +23,7 @@ public class LoginTest extends BaseTest {
         loginPage.setEmail(email);
         Utils.waitForXMillis(200);
         loginPage.setPassword(password);
-        Utils.waitForXMillis(200);
+        Utils.waitForXMillis(20);
         SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         Utils.scrollDown(getDriver());
         signedInIMDB.getloginCheck();
