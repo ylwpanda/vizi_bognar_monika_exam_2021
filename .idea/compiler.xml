@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="vizi_bognar_monika_vizsgaremek_2021" target="10" />
+      <module name="vizi_bognar_monika_vizsgaremek_2021" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
