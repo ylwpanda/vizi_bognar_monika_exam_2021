@@ -16,31 +16,31 @@ public class ModifyDataTest extends BaseTest {
     public void editProfileUserIDTest(){
         LoginPage loginPage = homePage.clickSignInPage();
         loginPage.setSingIn();
-        loginPage.setEmail(email);
-        loginPage.setPassword(password);
-        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        //loginPage.setEmail(email);
+        //loginPage.setPassword(password);
+        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.editProfileUserID(newUserID);
     }
 
     @Test
     public void editBioTest(){
-        LoginPage loginPage = homePage.clickSignInPage();
-        loginPage.setSingIn();
-        loginPage.setEmail(email);
-        loginPage.setPassword(password);
-        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        //LoginPage loginPage = homePage.clickSignInPage();
+        //loginPage.setSingIn();
+        //loginPage.setEmail(email);
+        //loginPage.setPassword(password);
+        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.editBio(bioText);
     }
 
     @Test
     public void deleteBioTest() {
-        LoginPage loginPage = homePage.clickSignInPage();
-        loginPage.setSingIn();
-        loginPage.setEmail(email);
-        loginPage.setPassword(password);
-        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        //LoginPage loginPage = homePage.clickSignInPage();
+        //loginPage.setSingIn();
+        //loginPage.setEmail(email);
+        //loginPage.setPassword(password);
+        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.deleteBio();
     }

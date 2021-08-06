@@ -13,13 +13,13 @@ public class LogoutTest extends LoginTest {
 
     @Test
     public void testSuccessfulLogout() throws InterruptedException {
-        LoginPage loginPage = homePage.clickSignInPage();
-        loginPage.setSingIn();
-        loginPage.setEmail(email);
-        loginPage.setPassword(password);
-        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        //LoginPage loginPage = homePage.clickSignInPage();
+        //loginPage.setSingIn();
+        //loginPage.setEmail(email);
+        //loginPage.setPassword(password);
+        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         //Utils.waitForXMillis(30);
-
+        LogoutPage logoutPage = new LogoutPage(super.getDriver());
         logoutPage.clickProfileButton();
         logoutPage.clickLogoutButton();
 

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="pom.xml refreshed." />
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="pom.xml refreshed.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.txt" beforeDir="false" afterPath="$PROJECT_DIR$/User.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,18 +51,18 @@
     <property name="project.structure.side.proportion" value="0.2225131" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
-  <component name="RunManager" selected="JUnit.ModifyDataTest.deleteBioTest">
-    <configuration name="LoginTest.testSuccessfulLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LogoutTest.testSuccessfulLogout">
+    <configuration name="LogoutTest.testSuccessfulLogout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="login.*" />
+          <option name="PATTERN" value="logout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="PACKAGE_NAME" value="logout" />
+      <option name="MAIN_CLASS_NAME" value="logout.LogoutTest" />
+      <option name="METHOD_NAME" value="testSuccessfulLogout" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,18 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModifyDataTest.editProfileUserIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrivacyPolicyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modify.*" />
+          <option name="PATTERN" value="privacypolicy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="modify" />
-      <option name="MAIN_CLASS_NAME" value="modify.ModifyDataTest" />
-      <option name="METHOD_NAME" value="editProfileUserIDTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="privacypolicy" />
+      <option name="MAIN_CLASS_NAME" value="privacypolicy.PrivacyPolicyTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogoutTest.testSuccessfulLogout" />
+        <item itemvalue="JUnit.searchTest.morePagesListsTest" />
+        <item itemvalue="JUnit.PrivacyPolicyTest" />
         <item itemvalue="JUnit.ModifyDataTest.deleteBioTest" />
         <item itemvalue="JUnit.ModifyDataTest.editBioTest" />
-        <item itemvalue="JUnit.ModifyDataTest.editProfileUserIDTest" />
-        <item itemvalue="JUnit.LoginTest.testSuccessfulLogin" />
-        <item itemvalue="JUnit.searchTest.morePagesListsTest" />
       </list>
     </recent_temporary>
   </component>
