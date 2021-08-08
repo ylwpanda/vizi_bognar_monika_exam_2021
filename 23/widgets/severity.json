@@ -1,0 +1,101 @@
+[ {
+  "uid" : "8b25d37eda231069",
+  "name" : "testSuccessfulLogout()",
+  "time" : {
+    "start" : 1628424913593,
+    "stop" : 1628424913768,
+    "duration" : 175
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4feb9761068f2f20",
+  "name" : "testSuccessfulLogin()",
+  "time" : {
+    "start" : 1628424914142,
+    "stop" : 1628424914293,
+    "duration" : 151
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "16668ed8a786ca96",
+  "name" : "testProfileMenu()",
+  "time" : {
+    "start" : 1628424914298,
+    "stop" : 1628424914456,
+    "duration" : 158
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "167dbe8e6a527658",
+  "name" : "morePagesListsTest()",
+  "time" : {
+    "start" : 1628424913962,
+    "stop" : 1628424914120,
+    "duration" : 158
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c051a05c267a42d4",
+  "name" : "editProfileUserIDTest()",
+  "time" : {
+    "start" : 1628424913262,
+    "stop" : 1628424913418,
+    "duration" : 156
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "419510f017e1578a",
+  "name" : "editBioTest()",
+  "time" : {
+    "start" : 1628424913424,
+    "stop" : 1628424913584,
+    "duration" : 160
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "531db359bd78ff8e",
+  "name" : "testDataListing()",
+  "time" : {
+    "start" : 1628424914471,
+    "stop" : 1628424914612,
+    "duration" : 141
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "deac5d3d18dff46e",
+  "name" : "writeBackNameTest()",
+  "time" : {
+    "start" : 1628424904500,
+    "stop" : 1628424912885,
+    "duration" : 8385
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a434d6293cea7b17",
+  "name" : "deleteBioTest()",
+  "time" : {
+    "start" : 1628424912984,
+    "stop" : 1628424913250,
+    "duration" : 266
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c1231be4c4ce94c2",
+  "name" : "saveToFileTest()",
+  "time" : {
+    "start" : 1628424913792,
+    "stop" : 1628424913931,
+    "duration" : 139
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
