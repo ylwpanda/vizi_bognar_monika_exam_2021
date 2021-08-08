@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="Logout works." />
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="allure result removed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProfileMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/profilemenu/ProfileMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -281,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628414854585</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="allure result removed">
+      <created>1628424428370</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1628424428370</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,6 +323,7 @@
     <MESSAGE value="yml file update" />
     <MESSAGE value="pom update" />
     <MESSAGE value="Logout works." />
-    <option name="LAST_COMMIT_MESSAGE" value="Logout works." />
+    <MESSAGE value="allure result removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="allure result removed" />
   </component>
 </project>
