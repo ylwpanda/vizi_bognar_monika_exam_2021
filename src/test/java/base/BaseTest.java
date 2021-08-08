@@ -29,6 +29,8 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         //String chromeProfilePath = "/Users/YLWPanda/Library/Application Support/Google/Chrome/Profile 3/"; //Chrome Profile 3 settings
         ChromeOptions options = new ChromeOptions();
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
         ChromeOptions chromeProfile = new ChromeOptions();
         //chromeProfile.addArguments("chrome.switches", "--disable-extensions"); //Chrome Profile 3 settings
         //chromeProfile.addArguments("user-data-dir=" + chromeProfilePath); //Chrome Profile 3 settings
