@@ -31,7 +31,8 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        ChromeOptions chromeProfile = new ChromeOptions();
+        options.addArguments("--headless");
+        //ChromeOptions chromeProfile = new ChromeOptions(); //Chrome Profile 3 settings
         //chromeProfile.addArguments("chrome.switches", "--disable-extensions"); //Chrome Profile 3 settings
         //chromeProfile.addArguments("user-data-dir=" + chromeProfilePath); //Chrome Profile 3 settings
         //options.addArguments("--disable-notifications"); //Chrome Profile 3 settings
