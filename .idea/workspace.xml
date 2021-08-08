@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="yml file update">
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="pom update">
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProfileMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignedInIMDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignedInIMDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/profilemenu/ProfileMenuTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +51,44 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2225131" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
-  <component name="RunManager" selected="JUnit.LogoutTest.testSuccessfulLogout">
+  <component name="RunManager" selected="JUnit.ModifyDataTest">
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vizi_bognar_monika_vizsgaremek_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testSuccessfulLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vizi_bognar_monika_vizsgaremek_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LogoutTest.testSuccessfulLogout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
@@ -64,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModifyDataTest.deleteBioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModifyDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
         <pattern>
@@ -74,38 +115,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="modify" />
       <option name="MAIN_CLASS_NAME" value="modify.ModifyDataTest" />
-      <option name="METHOD_NAME" value="deleteBioTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ModifyDataTest.editBioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vizi_bognar_monika_vizsgaremek_2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modify" />
-      <option name="MAIN_CLASS_NAME" value="modify.ModifyDataTest" />
-      <option name="METHOD_NAME" value="editBioTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrivacyPolicyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vizi_bognar_monika_vizsgaremek_2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="privacypolicy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="privacypolicy" />
-      <option name="MAIN_CLASS_NAME" value="privacypolicy.PrivacyPolicyTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ModifyDataTest" />
         <item itemvalue="JUnit.LogoutTest.testSuccessfulLogout" />
+        <item itemvalue="JUnit.LoginTest.testSuccessfulLogin" />
+        <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.searchTest.morePagesListsTest" />
-        <item itemvalue="JUnit.PrivacyPolicyTest" />
-        <item itemvalue="JUnit.ModifyDataTest.deleteBioTest" />
-        <item itemvalue="JUnit.ModifyDataTest.editBioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628240940297</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="pom update">
+      <created>1628243013633</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1628243013633</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,6 +317,7 @@
     <MESSAGE value="pom.xml refreshed." />
     <MESSAGE value="Every login was refactored to google login." />
     <MESSAGE value="yml file update" />
-    <option name="LAST_COMMIT_MESSAGE" value="yml file update" />
+    <MESSAGE value="pom update" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom update" />
   </component>
 </project>

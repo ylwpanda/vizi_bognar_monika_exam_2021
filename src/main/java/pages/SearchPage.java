@@ -35,7 +35,7 @@ public class SearchPage {
             List<WebElement> links;
             WebDriverWait wait = new WebDriverWait(driver, 5);
             int list = 0;
-            while (driver.findElement(SEC_NEXT_LIST_BUTTON).isDisplayed() && list <= 10) {
+            while (driver.findElement(SEC_NEXT_LIST_BUTTON).isDisplayed() && list <= 99) {
                 list++;
                 links = driver.findElements(PAGE_LISTS);
                 for (int allList = 0; allList < links.size(); allList++) {

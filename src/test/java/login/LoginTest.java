@@ -26,7 +26,7 @@ public class LoginTest extends BaseTest {
         Utils.waitForXMillis(20);
         SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         Utils.scrollDown(getDriver());
-        signedInIMDB.getloginCheck();
-        Assertions.assertTrue(signedInIMDB.getloginCheck().contains("Mónika"), "You are not logged in!");
+        signedInIMDB.getLoginCheck();
+        Assertions.assertTrue(signedInIMDB.getLoginCheck().contains("Mónika"), "You are not logged in!");
     }
 }

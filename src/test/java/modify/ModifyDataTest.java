@@ -11,37 +11,49 @@ public class ModifyDataTest extends BaseTest {
     protected ModifyData modifyData;
     protected String newUserID = "BestTesterEver";
     protected String bioText = "This is an automatic text!";
+    protected String oldUserID = "Vizi-Bognar Monika Tester";
 
     @Test
-    public void editProfileUserIDTest(){
+    public void editProfileUserIDTest() {
         LoginPage loginPage = homePage.clickSignInPage();
         loginPage.setSingIn();
-        //loginPage.setEmail(email);
-        //loginPage.setPassword(password);
-        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        loginPage.setEmail(email);
+        loginPage.setPassword(password);
+        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.editProfileUserID(newUserID);
     }
 
     @Test
-    public void editBioTest(){
-        //LoginPage loginPage = homePage.clickSignInPage();
-        //loginPage.setSingIn();
-        //loginPage.setEmail(email);
-        //loginPage.setPassword(password);
-        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+    public void editBioTest() {
+        LoginPage loginPage = homePage.clickSignInPage();
+        loginPage.setSingIn();
+        loginPage.setEmail(email);
+        loginPage.setPassword(password);
+        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.editBio(bioText);
     }
 
     @Test
     public void deleteBioTest() {
-        //LoginPage loginPage = homePage.clickSignInPage();
-        //loginPage.setSingIn();
-        //loginPage.setEmail(email);
-        //loginPage.setPassword(password);
-        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        LoginPage loginPage = homePage.clickSignInPage();
+        loginPage.setSingIn();
+        loginPage.setEmail(email);
+        loginPage.setPassword(password);
+        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.deleteBio();
+    }
+
+    @Test
+    public void writeBackNameTest() {
+        LoginPage loginPage = homePage.clickSignInPage();
+        loginPage.setSingIn();
+        loginPage.setEmail(email);
+        loginPage.setPassword(password);
+        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        modifyData = new ModifyData(super.getDriver());
+        modifyData.editProfileUserID(oldUserID);
     }
 }

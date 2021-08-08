@@ -8,10 +8,10 @@ import java.util.concurrent.TimeUnit;
 public class LoginPage {
 
     private final WebDriver driver;
-    private final By SIGN_IN_WITH_IMDB = By.xpath("//*[@id=\"signin-options\"]/div/div[1]/a[1]");
-    private final By EMAIL_FIELD = By.id("ap_email");
-    private final By PASSWORD_FIELD = By.id("ap_password");
-    private final By LOGIN_BUTTON = By.id("signInSubmit");
+    //private final By SIGN_IN_WITH_IMDB = By.xpath("//*[@id=\"signin-options\"]/div/div[1]/a[1]"); //Sign in with IMDB data
+    //private final By EMAIL_FIELD = By.id("ap_email"); //Sign in with IMDB data
+    //private final By PASSWORD_FIELD = By.id("ap_password"); //Sign in with IMDB data
+    //private final By LOGIN_BUTTON = By.id("signInSubmit"); //Sign in with IMDB data
     private final By SIGN_IN_WITH_GOOGLE = By.xpath("//*[@id=\"signin-options\"]/div/div[1]/a[4]/span[2]");
     private final By GOOGLE_EMAIL_FIELD = By.xpath("//*[@id=\"identifierId\"]");
     private final By GOOGLE_NEXT_BUTTON = By.xpath("//*[@id=\"identifierNext\"]/div/button/span");

@@ -1,6 +1,7 @@
 package privacypolicy;
 
 import base.BaseTest;
+import base.TestData;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -21,7 +22,7 @@ public class PrivacyPolicyTest extends BaseTest {
         privacyPolicyPage.setPrivacyPolicyPage();
 
         fileutils.saveToFile("Privacypolicy.txt", privacyPolicyPage.getPolicyTxt());
-        Assertions.assertEquals("What About Advertising?", getDriver().findElement(By.xpath("//*[@id=\"whataboutadvertising\"]/h2")).getText());
+        Assertions.assertEquals(TestData.PRIVACY_POLICY_TEXT, getDriver().findElement(By.xpath("//*[@id=\"whataboutadvertising\"]/h2")).getText());
 
     }
     }

@@ -8,14 +8,14 @@ import java.util.concurrent.TimeUnit;
 public class SignedInIMDB {
 
     private final WebDriver driver;
-    private final By loggedInChecker = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div");
+    private final By LOGGED_IN_CHECKER = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div");
 
     public SignedInIMDB(WebDriver driver) {
         this.driver = driver;
     }
 
-    public String getloginCheck() {
+    public String getLoginCheck() {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        return driver.findElement(loggedInChecker).getText();
+        return driver.findElement(LOGGED_IN_CHECKER).getText();
     }
 }

@@ -27,14 +27,15 @@ public class BaseTest {
     @BeforeEach
     public void setUp() { //setup chorme, incognito mode
         WebDriverManager.chromedriver().setup();
-        String chromeProfilePath = "/Users/YLWPanda/Library/Application Support/Google/Chrome/Profile 3/";
+        //String chromeProfilePath = "/Users/YLWPanda/Library/Application Support/Google/Chrome/Profile 3/"; //Chrome Profile 3 settings
         ChromeOptions options = new ChromeOptions();
         ChromeOptions chromeProfile = new ChromeOptions();
-        chromeProfile.addArguments("chrome.switches", "--disable-extensions");
-        chromeProfile.addArguments("user-data-dir=" + chromeProfilePath);
-        //options.addArguments("--disable-notifications");
-        //options.addArguments("--incognito");
-        driver = new ChromeDriver(chromeProfile);
+        //chromeProfile.addArguments("chrome.switches", "--disable-extensions"); //Chrome Profile 3 settings
+        //chromeProfile.addArguments("user-data-dir=" + chromeProfilePath); //Chrome Profile 3 settings
+        //options.addArguments("--disable-notifications"); //Chrome Profile 3 settings
+        options.addArguments("--incognito");
+        //driver = new ChromeDriver(chromeProfile); //Chrome Profile 3 settings
+        driver = new ChromeDriver(options);
         driver.get("https://www.imdb.com/");
         driver.manage().window().maximize();
         //driver.manage().window().setSize(new Dimension(375, 812)); //iPhone X size screen
