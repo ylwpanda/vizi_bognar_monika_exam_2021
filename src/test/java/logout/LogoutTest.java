@@ -9,10 +9,6 @@ import org.openqa.selenium.By;
 import pages.LoginPage;
 import pages.LogoutPage;
 import pages.SignedInIMDB;
-import utils.Utils;
-
-import static org.apache.commons.lang3.StringUtils.contains;
-
 
 public class LogoutTest extends BaseTest {
 

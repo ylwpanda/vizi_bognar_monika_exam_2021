@@ -14,6 +14,7 @@ public class SignedInIMDB {
         this.driver = driver;
     }
 
+    //logged in check method
     public String getLoginCheck() {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         return driver.findElement(LOGGED_IN_CHECKER).getText();

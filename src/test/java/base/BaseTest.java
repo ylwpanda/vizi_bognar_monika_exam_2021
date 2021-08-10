@@ -25,33 +25,36 @@ public class BaseTest {
 
 
     @BeforeEach
-    public void setUp() { //setup chorme, incognito mode
+    public void setUp() { //setup chormedriver
         WebDriverManager.chromedriver().setup();
+        System.out.println("Test is Starting...");
         //String chromeProfilePath = "/Users/YLWPanda/Library/Application Support/Google/Chrome/Profile 3/"; //Chrome Profile 3 settings
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
         //ChromeOptions chromeProfile = new ChromeOptions(); //Chrome Profile 3 settings
         //chromeProfile.addArguments("chrome.switches", "--disable-extensions"); //Chrome Profile 3 settings
         //chromeProfile.addArguments("user-data-dir=" + chromeProfilePath); //Chrome Profile 3 settings
         //options.addArguments("--disable-notifications"); //Chrome Profile 3 settings
-        options.addArguments("--incognito");
         //driver = new ChromeDriver(chromeProfile); //Chrome Profile 3 settings
+        options.addArguments("--disable-gpu");
+        options.addArguments("--disable-extensions");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--window-size=1580,1280");
+        options.addArguments("--incognito");
+        //options.addArguments("--headless");
         driver = new ChromeDriver(options);
-        driver.get("https://www.imdb.com/");
+        driver.get(TestData.URL);
         driver.manage().window().maximize();
-        //driver.manage().window().setSize(new Dimension(375, 812)); //iPhone X size screen
-        //List<WebElement> links = driver.findElements(By.tagName("a"));
-        //System.out.println(links.size()); //List elemements of webpage like "a" element.
         homePage = new HomePage(driver);
         System.out.println(driver.getTitle());
 
     }
 
 
-    @AfterEach // closes all the browser windows opened by web driver
+    /*@AfterEach // closes all the browser windows opened by web driver
     public void tearDown() {
+        System.out.println("Test is Ending...");
+        driver.manage().deleteAllCookies();
         driver.quit();
-    }
+    }*/
 }

@@ -11,22 +11,25 @@ import java.util.stream.Collectors;
 public class ProfileMenu {
 
     private WebDriver driver;
-    private final By PROFILE_BUTTON = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/svg");
+    private final By PROFILE_BUTTON = By.id("navUserMenu-contents");
 
     public ProfileMenu(WebDriver driver){
         this.driver = driver;
     }
 
-    public void selectFromProfileMenu(String menuitem){
-        findProfileMenuOption().selectByVisibleText(menuitem);
+    public void selectFromProfileMenu(String menuitem) {
+        findMenuItem().selectByVisibleText(menuitem);
     }
 
-    public List<String> getSelectedOptions() {
-        List<WebElement> selectedOptions = findProfileMenuOption().getAllSelectedOptions();
-        return selectedOptions.stream().map(e->e.getText()).collect(Collectors.toList());
+    public void setSelectedItem(String menuitem){
+        Select select= new Select(driver.findElement(PROFILE_BUTTON));
+        select.selectByVisibleText(menuitem);
     }
 
-    private Select findProfileMenuOption(){
+    //Select select= new Select(driver.findElement(STATE));
+    //        select.selectByValue(String.valueOf(st));
+
+    private Select findMenuItem(){
         return new Select(driver.findElement(PROFILE_BUTTON));
     }
 }

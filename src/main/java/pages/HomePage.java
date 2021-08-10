@@ -25,22 +25,25 @@ public class HomePage {
         return new DataListing(driver);
     }
 
+    //click on Privacy Policy link at the bottom of the page
     public PrivacyPolicyPage privacyPolicyLink(){
         clickLink("driver.findElement(//*[@id=\"imdbHeader-navDrawerOpen--desktop\"]/div");
         return new PrivacyPolicyPage(driver);
     }
 
+    //click on Profile menu
     public ProfileMenu clickProfileButton() {
-        clickLink("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/span");
+        clickLink("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]");
         return new ProfileMenu(driver);
     }
 
+    //click on Search field
     public SearchPage clickMenuButton(){
         clickLink("//*[@id=\"imdbHeader-navDrawerOpen--desktop\"]");
         return new SearchPage(driver);
     }
 
-        //clickLink method
+    //clickLink method
     private void clickLink(String linkText){
         driver.findElement(By.xpath(linkText)).click();
     }

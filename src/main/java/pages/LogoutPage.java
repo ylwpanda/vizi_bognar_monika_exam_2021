@@ -5,14 +5,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.concurrent.TimeUnit;
-
 public class LogoutPage {
 
     private final WebDriver driver;
     private final By PROFILE_BUTTON = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/span");
     private final By LOGOUT_BUTTON = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[7]");
-    private final By LOGOUT_CHECK_LINK = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/span");
+    //private final By LOGOUT_CHECK_LINK = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/span");
 
     //constructor
     public LogoutPage(WebDriver driver){

@@ -31,6 +31,7 @@ public class SearchPage {
             driver.findElement(NEXT_LIST_BUTTON).click();
         }
 
+        //click on ell the page that exist
         public void listAllTheResults() {
             List<WebElement> links;
             WebDriverWait wait = new WebDriverWait(driver, 5);

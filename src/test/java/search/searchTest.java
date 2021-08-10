@@ -4,6 +4,8 @@ import base.BaseTest;
 import org.junit.jupiter.api.Test;
 import pages.SearchPage;
 
+import static base.TestData.URL;
+
 public class searchTest extends BaseTest {
 
     protected SearchPage searchPage;
@@ -11,7 +13,7 @@ public class searchTest extends BaseTest {
 
     @Test
     public void morePagesListsTest() {
-        getDriver().get("https://www.imdb.com/");
+        getDriver().get(URL);
         searchPage = new SearchPage(super.getDriver());
         searchPage.findDramaLink();
         searchPage.listAllTheResults();

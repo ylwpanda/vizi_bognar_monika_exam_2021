@@ -1,17 +1,19 @@
 package modify;
 
 import base.BaseTest;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 import pages.LoginPage;
 import pages.ModifyData;
 import pages.SignedInIMDB;
 
+import static base.TestData.*;
+
 public class ModifyDataTest extends BaseTest {
 
     protected ModifyData modifyData;
-    protected String newUserID = "BestTesterEver";
-    protected String bioText = "This is an automatic text!";
-    protected String oldUserID = "Vizi-Bognar Monika Tester";
+
 
     @Test
     public void editProfileUserIDTest() {
@@ -22,6 +24,7 @@ public class ModifyDataTest extends BaseTest {
         SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.editProfileUserID(newUserID);
+        Assertions.assertEquals(MODIFIED_ID, getDriver().findElement(By.xpath("//*[@id=\"main\"]/div/div/div/h2")).getText());
     }
 
     @Test
@@ -55,5 +58,6 @@ public class ModifyDataTest extends BaseTest {
         SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.editProfileUserID(oldUserID);
+        Assertions.assertEquals(EXIST_ID, getDriver().findElement(By.xpath("//*[@id=\"main\"]/div/div/div/h2")).getText());
     }
 }

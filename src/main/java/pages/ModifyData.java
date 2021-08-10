@@ -19,6 +19,7 @@ public class ModifyData {
         this.driver = driver;
     }
 
+    //change userID
     public void editProfileUserID(String newUserID){
         HomePage homePage = new HomePage(driver);
         homePage.clickProfileButton();
@@ -30,6 +31,7 @@ public class ModifyData {
         driver.findElement(SAVE_MODIFIED_USER_ID_BUTTON).click(); //You have successfully changed your User ID assert
     }
 
+    //Write on BIO
     public void editBio(String bioText){
         HomePage homePage = new HomePage(driver);
         homePage.clickProfileButton();
@@ -39,6 +41,7 @@ public class ModifyData {
         driver.findElement(SAVE_DESCRIPTION_BUTTON).click();
     }
 
+    //delete data from BIO
     public void deleteBio() {
         HomePage homePage = new HomePage(driver);
         homePage.clickProfileButton();
