@@ -1,0 +1,172 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-628', ip: '10.1.0.84', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.3OzuMY}, goog:chromeOptions: {debuggerAddress: localhost:37385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3d3723327542ee2799417cd53e2fe170\n*** Element info: {Using=xpath, value=//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]}",
+      "children" : [ {
+        "name" : "TC-IMDB_011",
+        "uid" : "737232b87bd82326",
+        "parentUid" : "c6c2c99556b2f1a94dbeb1bf5f36d320",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308185080,
+          "stop" : 1629308210025,
+          "duration" : 24945
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c6c2c99556b2f1a94dbeb1bf5f36d320"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-628', ip: '10.1.0.84', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.hVDkTK}, goog:chromeOptions: {debuggerAddress: localhost:45679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f0213cb9a69650d9d7a76d39b005e7ef\n*** Element info: {Using=xpath, value=//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]}",
+      "children" : [ {
+        "name" : "TC-IMDB_013",
+        "uid" : "c571b06789e5d57f",
+        "parentUid" : "3d444bb23d1fa45dceb25fbde8a6367b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308210095,
+          "stop" : 1629308232495,
+          "duration" : 22400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d444bb23d1fa45dceb25fbde8a6367b"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"password\"]/div[1]/div/div[1]/input (tried for 20 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "TC-IMDB_010",
+        "uid" : "77c436dcdf90865b",
+        "parentUid" : "b88b14c65177d84735bff63d82a2aff1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308232503,
+          "stop" : 1629308258486,
+          "duration" : 25983
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-IMDB_012",
+        "uid" : "631e677cc0e890c",
+        "parentUid" : "b88b14c65177d84735bff63d82a2aff1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308258491,
+          "stop" : 1629308284584,
+          "duration" : 26093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-IMDB_006",
+        "uid" : "eaeea34e1b05c707",
+        "parentUid" : "b88b14c65177d84735bff63d82a2aff1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308284591,
+          "stop" : 1629308310542,
+          "duration" : 25951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-IMDB_003",
+        "uid" : "29b345589c1ae4b1",
+        "parentUid" : "b88b14c65177d84735bff63d82a2aff1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308326012,
+          "stop" : 1629308351817,
+          "duration" : 25805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-IMDB_008",
+        "uid" : "35e670ee8a413ba",
+        "parentUid" : "b88b14c65177d84735bff63d82a2aff1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308351827,
+          "stop" : 1629308380416,
+          "duration" : 28589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-IMDB_014",
+        "uid" : "e64a800055224d2",
+        "parentUid" : "b88b14c65177d84735bff63d82a2aff1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308380422,
+          "stop" : 1629308407002,
+          "duration" : 26580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-IMDB_015",
+        "uid" : "9cedeee93763c9e4",
+        "parentUid" : "b88b14c65177d84735bff63d82a2aff1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308407005,
+          "stop" : 1629308437390,
+          "duration" : 30385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b88b14c65177d84735bff63d82a2aff1"
+    }, {
+      "name" : "element click intercepted: Element <li role=\"presentation\" class=\"ipc-inline-list__item\">...</li> is not clickable at point (1422, 1580). Other element would receive the click: <div id=\"ipc-wrap-background-id\" style=\"position:absolute;width:100%;height:100%\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-628', ip: '10.1.0.84', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.O8V6Py}, goog:chromeOptions: {debuggerAddress: localhost:42547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ad03bfdc10d2922ee3e7f2b7244b3321",
+      "children" : [ {
+        "name" : "TC-IMDB_007",
+        "uid" : "f2b05337f26b06a8",
+        "parentUid" : "12932a3d188a7f29b3954ebcec2636bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308310547,
+          "stop" : 1629308318752,
+          "duration" : 8205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12932a3d188a7f29b3954ebcec2636bc"
+    }, {
+      "name" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-628', ip: '10.1.0.84', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.5a8cHr}, goog:chromeOptions: {debuggerAddress: localhost:33809}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 31c8ee78e02ecc268eaae36a3ff2cee0",
+      "children" : [ {
+        "name" : "TC-IMDB_009",
+        "uid" : "9c1c846954554929",
+        "parentUid" : "edbb37abfb559654b1151fe5eb98272e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308318778,
+          "stop" : 1629308326008,
+          "duration" : 7230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "edbb37abfb559654b1151fe5eb98272e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
