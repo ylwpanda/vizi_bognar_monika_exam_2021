@@ -4,27 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="options.addArguments(&quot;--headless&quot;); -- added to basetest">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021__07__31__16_12_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021__07__31__16_12__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="EditProfile class removed from pages.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/DataListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DataListing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogoutPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ModifyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ModifyData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/PrivacyPolicyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PrivacyPolicyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProfileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProfileMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignedInIMDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignedInIMDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/profilemenu/ProfileMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/profilemenu/ProfileMenuTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/search/searchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/search/searchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +42,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectId" id="1vnom1B2bMU4E5zaIbgtR0BW0QW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -68,34 +56,50 @@
     <property name="project.structure.side.proportion" value="0.2225131" />
     <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
   </component>
-  <component name="RunManager" selected="JUnit.ProfileMenuTest.testSelectMenuItem">
-    <configuration name="DataListingTest.testDataListing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ModifyDataTest.writeBackNameTest">
+    <configuration name="LoginTest.testSuccessfulLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DataListingTest" />
-      <option name="METHOD_NAME" value="testDataListing" />
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataListingTest.testWatchListing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModifyDataTest.deleteBioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="modify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DataListingTest" />
-      <option name="METHOD_NAME" value="testWatchListing" />
+      <option name="PACKAGE_NAME" value="modify" />
+      <option name="MAIN_CLASS_NAME" value="modify.ModifyDataTest" />
+      <option name="METHOD_NAME" value="deleteBioTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModifyDataTest.editBioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vizi_bognar_monika_vizsgaremek_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modify" />
+      <option name="MAIN_CLASS_NAME" value="modify.ModifyDataTest" />
+      <option name="METHOD_NAME" value="editBioTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,29 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProfileMenuTest.testSelectMenuItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vizi_bognar_monika_vizsgaremek_2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="profilemenu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="profilemenu" />
-      <option name="MAIN_CLASS_NAME" value="profilemenu.ProfileMenuTest" />
-      <option name="METHOD_NAME" value="testSelectMenuItem" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProfileMenuTest.testSelectMenuItem" />
         <item itemvalue="JUnit.ModifyDataTest.writeBackNameTest" />
+        <item itemvalue="JUnit.LoginTest.testSuccessfulLogin" />
+        <item itemvalue="JUnit.ModifyDataTest.deleteBioTest" />
+        <item itemvalue="JUnit.ModifyDataTest.editBioTest" />
         <item itemvalue="JUnit.ModifyDataTest.editProfileUserIDTest" />
-        <item itemvalue="JUnit.DataListingTest.testWatchListing" />
-        <item itemvalue="JUnit.DataListingTest.testDataListing" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628425474297</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="EditProfile class removed from pages.">
+      <created>1628602657359</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1628602657359</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,6 +366,7 @@
     <MESSAGE value="ProfileMenu and ProfileMenuTest added." />
     <MESSAGE value="options.addArguments(&quot;--no-sandbox&quot;);&#10;options.addArguments(&quot;--disable-dev-shm-usage&quot;); -- added to basetest" />
     <MESSAGE value="options.addArguments(&quot;--headless&quot;); -- added to basetest" />
-    <option name="LAST_COMMIT_MESSAGE" value="options.addArguments(&quot;--headless&quot;); -- added to basetest" />
+    <MESSAGE value="EditProfile class removed from pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="EditProfile class removed from pages." />
   </component>
 </project>

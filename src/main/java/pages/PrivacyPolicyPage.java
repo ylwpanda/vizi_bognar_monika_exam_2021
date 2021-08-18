@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class PrivacyPolicyPage {
 
     private WebDriver driver;
-    private final By PRIVACY_POLICY_DATA = By.id("main");
+    private final By PRIVACY_POLICY_DATA = By.id("pagecontent");
     private String policyTxt;
 
     //constructor

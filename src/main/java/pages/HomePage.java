@@ -27,7 +27,7 @@ public class HomePage {
 
     //click on Privacy Policy link at the bottom of the page
     public PrivacyPolicyPage privacyPolicyLink(){
-        clickLink("driver.findElement(//*[@id=\"imdbHeader-navDrawerOpen--desktop\"]/div");
+        clickLink("//*[@id=\"__next\"]/footer/div[2]/div[1]/div[3]/ul/li[5]");
         return new PrivacyPolicyPage(driver);
     }
 

@@ -29,20 +29,21 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         System.out.println("Test is Starting...");
         //String chromeProfilePath = "/Users/YLWPanda/Library/Application Support/Google/Chrome/Profile 3/"; //Chrome Profile 3 settings
-        ChromeOptions options = new ChromeOptions();
-        //ChromeOptions chromeProfile = new ChromeOptions(); //Chrome Profile 3 settings
-        //chromeProfile.addArguments("chrome.switches", "--disable-extensions"); //Chrome Profile 3 settings
-        //chromeProfile.addArguments("user-data-dir=" + chromeProfilePath); //Chrome Profile 3 settings
-        //options.addArguments("--disable-notifications"); //Chrome Profile 3 settings
-        //driver = new ChromeDriver(chromeProfile); //Chrome Profile 3 settings
-        options.addArguments("--disable-gpu");
-        options.addArguments("--disable-extensions");
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--window-size=1580,1280");
-        options.addArguments("--incognito");
-        //options.addArguments("--headless");
-        driver = new ChromeDriver(options);
+        var ChromeOptions = new ChromeOptions();
+        //var ChromeOptions = new ChromeOptions(); //Chrome Profile 3 settings
+        //ChromeOptions.addArguments("chrome.switches", "--disable-extensions"); //Chrome Profile 3 settings
+        //ChromeOptions.addArguments("user-data-dir=" + chromeProfilePath); //Chrome Profile 3 settings
+        //ChromeOptions.addArguments("--disable-notifications"); //Chrome Profile 3 settings
+        //driver = new ChromeDriver(ChromeOptions); //Chrome Profile 3 settings
+        //ChromeOptions.addArguments("--headless");
+        ChromeOptions.addArguments("--disable-gpu");
+        //ChromeOptions.addArguments("--disable-extensions");
+        ChromeOptions.addArguments("--no-sandbox");
+        //ChromeOptions.addArguments("--disable-dev-shm-usage");
+        ChromeOptions.addArguments("--allow-insecure-localhost");
+        ChromeOptions.addArguments("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36");
+        //ChromeOptions.addArguments("--incognito");
+        driver = new ChromeDriver(ChromeOptions);
         driver.get(TestData.URL);
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
@@ -51,7 +52,7 @@ public class BaseTest {
     }
 
 
-    /*@AfterEach // closes all the browser windows opened by web driver
+    /*@AfterEach // closes all the browser windows opened by webdriver
     public void tearDown() {
         System.out.println("Test is Ending...");
         driver.manage().deleteAllCookies();

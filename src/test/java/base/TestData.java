@@ -1,5 +1,7 @@
 package base;
 
+import org.openqa.selenium.By;
+
 public class TestData {
 
     public static final String URL = "https://www.imdb.com/";
@@ -10,5 +12,5 @@ public class TestData {
     public static final String oldUserID = "monikaViziBognarTester"; // old userID - ModifyDataTest
     public static final String dataSearch = "Wes Anderson"; //search data - DataListingTest
     public static final String MODIFIED_ID = "You have successfully changed your User ID to BestTesterEverAndEverAndEver"; //successful modifiedID text from the page
-    public static final String EXIST_ID = "You have successfully changed your User ID to monikaViziBognarTester"; //write back the ID.
+    public static final String EXIST_ID = "You have successfully changed your User ID to monikaViziBognarTester"; //write back the ID
 }
