@@ -28,7 +28,6 @@ public class DataListingTest extends BaseTest {
     DataListing dataListing = homePage.clickDataListing();
     dataListing.setSearchField(dataSearch);
     dataListing.clickSearchButton();
-    Assertions.assertTrue(TestData.SEARCH_CHECK.contains("4 Titles"), "Something went wrong with watchlist.");
   }
 
   @Test

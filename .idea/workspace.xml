@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="ProfileMenu and ProfileTest removed">
-      <change afterPath="$PROJECT_DIR$/vizi_bognár_mónika_vizsgaremek_tesztmenedzser.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.txt" beforeDir="false" afterPath="$PROJECT_DIR$/User.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="@Displayname added">
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/search/searchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/search/searchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629294700085</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="@Displayname added">
+      <created>1629304253562</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1629304253562</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +401,8 @@
     <MESSAGE value="Headless on." />
     <MESSAGE value="BaseTest chromeoptions" />
     <MESSAGE value="ProfileMenu and ProfileTest removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="ProfileMenu and ProfileTest removed" />
+    <MESSAGE value="@Displayname added" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Displayname added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
