@@ -35,7 +35,7 @@ public class BaseTest {
         //ChromeOptions.addArguments("user-data-dir=" + chromeProfilePath); //Chrome Profile 3 settings
         //ChromeOptions.addArguments("--disable-notifications"); //Chrome Profile 3 settings
         //driver = new ChromeDriver(ChromeOptions); //Chrome Profile 3 settings
-        //ChromeOptions.addArguments("--headless");
+        ChromeOptions.addArguments("--headless");
         ChromeOptions.addArguments("--disable-gpu");
         //ChromeOptions.addArguments("--disable-extensions");
         ChromeOptions.addArguments("--no-sandbox");
