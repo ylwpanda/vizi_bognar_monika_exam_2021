@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="searchTest done.">
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="Headless on.">
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.2225131" />
     <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
   </component>
-  <component name="RunManager" selected="JUnit.ModifyDataTest.writeBackNameTest">
+  <component name="RunManager" selected="JUnit.LogoutTest.testSuccessfulLogout">
     <configuration name="LoginTest.testSuccessfulLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
@@ -57,6 +57,22 @@
       <option name="PACKAGE_NAME" value="login" />
       <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
       <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoutTest.testSuccessfulLogout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vizi_bognar_monika_vizsgaremek_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="logout" />
+      <option name="MAIN_CLASS_NAME" value="logout.LogoutTest" />
+      <option name="METHOD_NAME" value="testSuccessfulLogout" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,22 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModifyDataTest.editProfileUserIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vizi_bognar_monika_vizsgaremek_2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modify" />
-      <option name="MAIN_CLASS_NAME" value="modify.ModifyDataTest" />
-      <option name="METHOD_NAME" value="editProfileUserIDTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ModifyDataTest.writeBackNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogoutTest.testSuccessfulLogout" />
         <item itemvalue="JUnit.ModifyDataTest.writeBackNameTest" />
         <item itemvalue="JUnit.LoginTest.testSuccessfulLogin" />
         <item itemvalue="JUnit.ModifyDataTest.deleteBioTest" />
         <item itemvalue="JUnit.ModifyDataTest.editBioTest" />
-        <item itemvalue="JUnit.ModifyDataTest.editProfileUserIDTest" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629292735001</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Headless on.">
+      <created>1629292966465</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1629292966465</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,6 +371,7 @@
     <MESSAGE value="options.addArguments(&quot;--headless&quot;); -- added to basetest" />
     <MESSAGE value="EditProfile class removed from pages." />
     <MESSAGE value="searchTest done." />
-    <option name="LAST_COMMIT_MESSAGE" value="searchTest done." />
+    <MESSAGE value="Headless on." />
+    <option name="LAST_COMMIT_MESSAGE" value="Headless on." />
   </component>
 </project>
