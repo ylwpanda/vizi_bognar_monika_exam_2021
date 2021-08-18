@@ -15,7 +15,10 @@ public class BaseTest {
     public String[] userData = utils.readUserDatas();
     protected HomePage homePage;
     protected String email = userData[0];
+    protected String wrongEmail = userData[1];
     protected String password = "CodeCool2021";
+    protected String wrongPassword = "CodeCool";
+
     private WebDriver driver;
 
     public WebDriver getDriver() {
@@ -35,7 +38,7 @@ public class BaseTest {
         //ChromeOptions.addArguments("user-data-dir=" + chromeProfilePath); //Chrome Profile 3 settings
         //ChromeOptions.addArguments("--disable-notifications"); //Chrome Profile 3 settings
         //driver = new ChromeDriver(ChromeOptions); //Chrome Profile 3 settings
-        ChromeOptions.addArguments("--headless");
+        //ChromeOptions.addArguments("--headless");
         ChromeOptions.addArguments("--disable-gpu");
         ChromeOptions.addArguments("--disable-extensions");
         ChromeOptions.addArguments("--no-sandbox");

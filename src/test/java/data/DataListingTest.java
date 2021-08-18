@@ -3,6 +3,8 @@ package data;
 import base.BaseTest;
 import base.TestData;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import pages.DataListing;
 import pages.LoginPage;
@@ -14,6 +16,8 @@ import static base.TestData.dataSearch;
 public class DataListingTest extends BaseTest {
 
   @Test
+  @DisplayName("TC-IMDB_008")
+  @Order(1)
   public void testDataListing() {
     getDriver().get(TestData.URL);
     LoginPage loginPage = homePage.clickSignInPage();
@@ -24,9 +28,12 @@ public class DataListingTest extends BaseTest {
     DataListing dataListing = homePage.clickDataListing();
     dataListing.setSearchField(dataSearch);
     dataListing.clickSearchButton();
+    Assertions.assertTrue(TestData.SEARCH_CHECK.contains("4 Titles"), "Something went wrong with watchlist.");
   }
 
   @Test
+  @DisplayName("TC-IMDB_014")
+  @Order(2)
   public void testWatchListing() {
     LoginPage loginPage = homePage.clickSignInPage();
     loginPage.setSingIn();
@@ -43,6 +50,8 @@ public class DataListingTest extends BaseTest {
   }
 
   @Test
+  @DisplayName("TC-IMDB_015")
+  @Order(3)
   public void testRemoveFromWatchListing() {
     LoginPage loginPage = homePage.clickSignInPage();
     loginPage.setSingIn();

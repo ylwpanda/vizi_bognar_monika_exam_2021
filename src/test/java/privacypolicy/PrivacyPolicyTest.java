@@ -3,6 +3,7 @@ package privacypolicy;
 import base.BaseTest;
 import base.TestData;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import pages.PrivacyPolicyPage;
@@ -16,6 +17,7 @@ public class PrivacyPolicyTest extends BaseTest {
     FileUtils fileutils = new FileUtils();
 
     @Test
+    @DisplayName("TC-IMDB_007")
     public void saveToFileTest(){
         privacyPolicyPage = new PrivacyPolicyPage(super.getDriver());
         getDriver().get(URL);

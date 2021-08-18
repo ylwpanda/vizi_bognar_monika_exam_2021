@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="BaseTest chromeoptions">
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="ProfileMenu and ProfileTest removed">
+      <change afterPath="$PROJECT_DIR$/vizi_bognár_mónika_vizsgaremek_tesztmenedzser.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DataListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DataListing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProfileMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/profilemenu/ProfileMenuTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.txt" beforeDir="false" afterPath="$PROJECT_DIR$/User.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/search/searchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/search/searchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +55,15 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2225131" />
-    <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin.scripting" />
   </component>
-  <component name="RunManager" selected="JUnit.ModifyDataTest.writeBackNameTest">
-    <configuration name="LoginTest.testSuccessfulLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.searchTest.morePagesListsTest">
+    <configuration name="LoginTest.testWrongMailAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
         <pattern>
@@ -60,7 +73,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="login" />
       <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="METHOD_NAME" value="testWrongMailAddress" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,22 +90,6 @@
       <option name="PACKAGE_NAME" value="logout" />
       <option name="MAIN_CLASS_NAME" value="logout.LogoutTest" />
       <option name="METHOD_NAME" value="testSuccessfulLogout" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ModifyDataTest.deleteBioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vizi_bognar_monika_vizsgaremek_2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modify" />
-      <option name="MAIN_CLASS_NAME" value="modify.ModifyDataTest" />
-      <option name="METHOD_NAME" value="deleteBioTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,13 +127,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="searchTest.morePagesListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vizi_bognar_monika_vizsgaremek_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="search" />
+      <option name="MAIN_CLASS_NAME" value="search.searchTest" />
+      <option name="METHOD_NAME" value="morePagesListsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.searchTest.morePagesListsTest" />
+        <item itemvalue="JUnit.LoginTest.testWrongMailAddress" />
         <item itemvalue="JUnit.ModifyDataTest.writeBackNameTest" />
         <item itemvalue="JUnit.ModifyDataTest.editProfileUserIDTest" />
         <item itemvalue="JUnit.LogoutTest.testSuccessfulLogout" />
-        <item itemvalue="JUnit.LoginTest.testSuccessfulLogin" />
-        <item itemvalue="JUnit.ModifyDataTest.deleteBioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629293558306</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="ProfileMenu and ProfileTest removed">
+      <created>1629294700084</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1629294700085</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -384,6 +404,11 @@
     <MESSAGE value="searchTest done." />
     <MESSAGE value="Headless on." />
     <MESSAGE value="BaseTest chromeoptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="BaseTest chromeoptions" />
+    <MESSAGE value="ProfileMenu and ProfileTest removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="ProfileMenu and ProfileTest removed" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

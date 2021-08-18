@@ -1,3 +1,4 @@
 email = monika.vizi.bognar.tester@gmail.com
+wrongEmail = harrypotter@harrypotter.com
 password = CodeCool2021
 dataSearch = Wes Anderson
