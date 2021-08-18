@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="headless added again" />
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="BaseTest ChromeOptions.addArguments(&quot;--window-size=1920,1080&quot;);">
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -365,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629304472536</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="BaseTest ChromeOptions.addArguments(&quot;--window-size=1920,1080&quot;);">
+      <created>1629307264791</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1629307264791</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,7 +390,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BaseTest, LoginTest, HomePage, LoginTest, Utils -- login works successfully!!!" />
     <MESSAGE value="Login checker working fine!" />
     <MESSAGE value="Search data working fine." />
     <MESSAGE value="file reading, writing works!" />
@@ -406,7 +414,8 @@
     <MESSAGE value="ProfileMenu and ProfileTest removed" />
     <MESSAGE value="@Displayname added" />
     <MESSAGE value="headless added again" />
-    <option name="LAST_COMMIT_MESSAGE" value="headless added again" />
+    <MESSAGE value="BaseTest ChromeOptions.addArguments(&quot;--window-size=1920,1080&quot;);" />
+    <option name="LAST_COMMIT_MESSAGE" value="BaseTest ChromeOptions.addArguments(&quot;--window-size=1920,1080&quot;);" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
