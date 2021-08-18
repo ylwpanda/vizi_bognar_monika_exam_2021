@@ -32,9 +32,9 @@ public class HomePage {
     }
 
     //click on Profile menu
-    public ProfileMenu clickProfileButton() {
+    public HomePage clickProfileButton() {
         clickLink("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]");
-        return new ProfileMenu(driver);
+        return new HomePage(driver);
     }
 
     //click on Search field

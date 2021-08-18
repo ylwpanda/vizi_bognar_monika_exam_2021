@@ -36,7 +36,7 @@ public class DataListing {
     //List/unlist movies to watchlist
     public void listWatchList(){
         WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.presenceOfElementLocated(WATCHLIST_BUTTON1));
+        wait.until(ExpectedConditions.elementToBeClickable(WATCHLIST_BUTTON1));
         driver.findElement(WATCHLIST_BUTTON1).click();
         driver.findElement(WATCHLIST_BUTTON2).click();
         driver.findElement(WATCHLIST_BUTTON3).click();

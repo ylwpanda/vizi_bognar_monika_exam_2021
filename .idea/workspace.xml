@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="Headless on.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="BaseTest chromeoptions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DataListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DataListing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProfileMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/profilemenu/ProfileMenuTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +49,7 @@
     <property name="project.structure.side.proportion" value="0.2225131" />
     <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
   </component>
-  <component name="RunManager" selected="JUnit.LogoutTest.testSuccessfulLogout">
+  <component name="RunManager" selected="JUnit.ModifyDataTest.writeBackNameTest">
     <configuration name="LoginTest.testSuccessfulLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
@@ -94,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModifyDataTest.editBioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModifyDataTest.editProfileUserIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
         <pattern>
@@ -104,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="modify" />
       <option name="MAIN_CLASS_NAME" value="modify.ModifyDataTest" />
-      <option name="METHOD_NAME" value="editBioTest" />
+      <option name="METHOD_NAME" value="editProfileUserIDTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LogoutTest.testSuccessfulLogout" />
         <item itemvalue="JUnit.ModifyDataTest.writeBackNameTest" />
+        <item itemvalue="JUnit.ModifyDataTest.editProfileUserIDTest" />
+        <item itemvalue="JUnit.LogoutTest.testSuccessfulLogout" />
         <item itemvalue="JUnit.LoginTest.testSuccessfulLogin" />
         <item itemvalue="JUnit.ModifyDataTest.deleteBioTest" />
-        <item itemvalue="JUnit.ModifyDataTest.editBioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629292966465</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="BaseTest chromeoptions">
+      <created>1629293558306</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1629293558306</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,6 +383,7 @@
     <MESSAGE value="EditProfile class removed from pages." />
     <MESSAGE value="searchTest done." />
     <MESSAGE value="Headless on." />
-    <option name="LAST_COMMIT_MESSAGE" value="Headless on." />
+    <MESSAGE value="BaseTest chromeoptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="BaseTest chromeoptions" />
   </component>
 </project>
