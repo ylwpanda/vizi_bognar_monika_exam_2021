@@ -1,0 +1,1 @@
+{"uuid":"0e281e85-712f-4191-822d-24bf650c2ed4","name":"testWrongMailAddress()","children":["2683d9ce-48a8-417d-829c-d8fb67a30fb1"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629298077809,"stop":1629298091327}],"afters":[],"links":[],"start":1629298077684,"stop":1629298100762}
