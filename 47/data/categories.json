@@ -1,0 +1,162 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.JHSZx7}, goog:chromeOptions: {debuggerAddress: localhost:37971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c8168632367840f1ea218fb8c5d77c04\n*** Element info: {Using=xpath, value=//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]}",
+      "children" : [ {
+        "name" : "TC-IMDB_011",
+        "uid" : "7627c59770f9a27a",
+        "parentUid" : "5077a21f3a845f2a9a0c24b181958a27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629386704369,
+          "stop" : 1629386742374,
+          "duration" : 38005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5077a21f3a845f2a9a0c24b181958a27"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.qFwQqr}, goog:chromeOptions: {debuggerAddress: localhost:41391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4c41f9b1a6d5868a9e1517f17a1c1652\n*** Element info: {Using=xpath, value=//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]}",
+      "children" : [ {
+        "name" : "TC-IMDB_013",
+        "uid" : "daa91f7e5bfefb6f",
+        "parentUid" : "3bc3fcb4c1cc26f079e44f497458062d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629386742506,
+          "stop" : 1629386754376,
+          "duration" : 11870
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3bc3fcb4c1cc26f079e44f497458062d"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.DGzjkv}, goog:chromeOptions: {debuggerAddress: localhost:43803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 165a197d3aa968cd548d7d4d98905603\n*** Element info: {Using=xpath, value=//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]}",
+      "children" : [ {
+        "name" : "TC-IMDB_010",
+        "uid" : "9c29f1243198d059",
+        "parentUid" : "5e597d9961404409edc36d22e31bb616",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629386754410,
+          "stop" : 1629386766143,
+          "duration" : 11733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e597d9961404409edc36d22e31bb616"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.fjKm8t}, goog:chromeOptions: {debuggerAddress: localhost:42331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9e0ca6915bf14a811457beb07e594637\n*** Element info: {Using=xpath, value=//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]}",
+      "children" : [ {
+        "name" : "TC-IMDB_012",
+        "uid" : "d149c83f6934b1d5",
+        "parentUid" : "38a73ad7258a5c6c31ba98a84055b685",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629386766154,
+          "stop" : 1629386778416,
+          "duration" : 12262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38a73ad7258a5c6c31ba98a84055b685"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='_3x17Igk9XRXcaKrcG3_MXQ navbar__user UserMenu-sc-1poz515-0 lkfvZn']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.y6Qilz}, goog:chromeOptions: {debuggerAddress: localhost:41637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 33ef40ea27793b0d63bf5566c6f1f9ab\n*** Element info: {Using=xpath, value=//*[@class='_3x17Igk9XRXcaKrcG3_MXQ navbar__user UserMenu-sc-1poz515-0 lkfvZn']}",
+      "children" : [ {
+        "name" : "TC-IMDB_006",
+        "uid" : "69cba5f6845d1fdf",
+        "parentUid" : "6c216d4ab8b01b52be590dc954f69de0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629386778435,
+          "stop" : 1629386789281,
+          "duration" : 10846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c216d4ab8b01b52be590dc954f69de0"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.UxIM2p}, goog:chromeOptions: {debuggerAddress: localhost:34537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8b82c45958cdcfde05875206a536c0c0",
+      "children" : [ {
+        "name" : "TC-IMDB_003",
+        "uid" : "17d34a8d94d6c941",
+        "parentUid" : "0e607df476e83d1f166a7024ff9cc777",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629386869298,
+          "stop" : 1629386893793,
+          "duration" : 24495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e607df476e83d1f166a7024ff9cc777"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.PQCnTQ}, goog:chromeOptions: {debuggerAddress: localhost:44065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a55f26c2b3fc8cb665fa9a49b542abcf",
+      "children" : [ {
+        "name" : "TC-IMDB_008",
+        "uid" : "fe69a20e42f30c65",
+        "parentUid" : "582a3b52ee6b8ddfd0cc35162e39ae24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629386893813,
+          "stop" : 1629386921486,
+          "duration" : 27673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "582a3b52ee6b8ddfd0cc35162e39ae24"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.u73eKK}, goog:chromeOptions: {debuggerAddress: localhost:39799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e5d5a5f479de3f2d54e0bc715677d9cd",
+      "children" : [ {
+        "name" : "TC-IMDB_014",
+        "uid" : "7153850d61b8aef8",
+        "parentUid" : "1f331890863766040a6e53ee0ee96e92",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629386921491,
+          "stop" : 1629386945904,
+          "duration" : 24413
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f331890863766040a6e53ee0ee96e92"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.DxqDbl}, goog:chromeOptions: {debuggerAddress: localhost:46087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 42b300616c8aef3a4ebf6b55384df54c",
+      "children" : [ {
+        "name" : "TC-IMDB_015",
+        "uid" : "5a1397384bbf72e2",
+        "parentUid" : "4dec7130969ec3471aa0d928229bb9bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629386945907,
+          "stop" : 1629386971317,
+          "duration" : 25410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4dec7130969ec3471aa0d928229bb9bb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
