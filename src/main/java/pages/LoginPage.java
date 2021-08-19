@@ -35,15 +35,15 @@ public class LoginPage {
         //WebDriverWait wait = new WebDriverWait(driver, 20);
         //wait.until(ExpectedConditions.visibilityOfElementLocated(GOOGLE_EMAIL_FIELD));
         driver.findElement(GOOGLE_EMAIL_FIELD).sendKeys(email);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.findElement(GOOGLE_NEXT_BUTTON).click();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
     }
 
     //fill the password field with data
     public void setPassword(String password){
-        //WebDriverWait wait = new WebDriverWait(driver, 20);
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(GOOGLE_PASSWORD_FIELD));
-        driver.findElement(GOOGLE_NEXT_BUTTON).click();
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(GOOGLE_PASSWORD_FIELD));
         driver.findElement(GOOGLE_PASSWORD_FIELD).sendKeys(password);
     }
 
