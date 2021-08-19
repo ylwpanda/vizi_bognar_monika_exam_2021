@@ -13,8 +13,8 @@ import java.util.List;
 public class SearchPage {
 
     private WebDriver driver;
-    //private final String TOP_RATED_MOVIES_URL = "https://www.imdb.com/search/title/?genres=drama&sort=user_rating,desc&title_type=feature&num_votes=25000,&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=5aab685f-35eb-40f3-95f7-c53f09d542c3&pf_rd_r=R43JB84MHF5Z17CPEA7V&pf_rd_s=right-6&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_gnr_7";
-    private final By TOP_RATED_LINK = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/aside/div/div[2]/div/div[1]/span/div/div/ul/a[4]");
+    private final String TOP_RATED_MOVIES_URL = "https://www.imdb.com/chart/top/?ref_=nv_mv_250";
+    //private final By TOP_RATED_LINK = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/aside/div/div[2]/div/div[1]/span/div/div/ul/a[4]");
     private final By DRAMA_LINK = By.xpath("//*[contains(text(),'Drama')]");
     private final By NEXT_LIST_BUTTON = By.xpath("//*[@id=\"main\"]/div/div[4]/a");
     private final By SEC_NEXT_LIST_BUTTON = By.xpath("//*[@id=\"main\"]/div/div[1]/div[2]/a[2]");
@@ -25,10 +25,10 @@ public class SearchPage {
     }
 
     public void findDramaLink() {
-        //driver.get(TOP_RATED_MOVIES_URL);
-        HomePage homePage = new HomePage(driver);
-        homePage.clickMenuButton();
-        driver.findElement(TOP_RATED_LINK).click();
+        driver.get(TOP_RATED_MOVIES_URL);
+        //HomePage homePage = new HomePage(driver);
+        //homePage.clickMenuButton();
+        //driver.findElement(TOP_RATED_LINK).click();
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(DRAMA_LINK));
         driver.findElement(DRAMA_LINK).click();

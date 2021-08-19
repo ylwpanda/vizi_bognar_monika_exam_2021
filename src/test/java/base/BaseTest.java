@@ -15,9 +15,7 @@ public class BaseTest {
     public String[] userData = utils.readUserDatas();
     protected HomePage homePage;
     protected String email = userData[0];
-    protected String wrongEmail = userData[1];
     protected String password = "CodeCool2021";
-    protected String wrongPassword = "CodeCool";
 
     private WebDriver driver;
 
@@ -45,7 +43,7 @@ public class BaseTest {
         ChromeOptions.addArguments("--disable-dev-shm-usage");
         ChromeOptions.addArguments("--allow-insecure-localhost");
         ChromeOptions.addArguments("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36");
-        ChromeOptions.addArguments("--window-size=1159,629"); //mac(2560,1600)1920,1080
+        ChromeOptions.addArguments("--window-size=2560,1600"); //mac(2560,1600)1920,1080
         ChromeOptions.addArguments("--incognito");
         driver = new ChromeDriver(ChromeOptions);
         driver.get(TestData.URL);

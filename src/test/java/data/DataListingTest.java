@@ -45,7 +45,7 @@ public class DataListingTest extends BaseTest {
     dataListing.clickFirstResult();
     dataListing.listWatchList();
     dataListing.getWatchlistNumberCheck();
-    Assertions.assertTrue(dataListing.getWatchlistNumberCheck().contains("4 Titles"), "Something went wrong with watchlist.");
+    Assertions.assertTrue(dataListing.getWatchlistNumberCheck().contains("4 Titles"), TestData.LISTING_WORNG_TEXT);
   }
 
   @Test
@@ -64,6 +64,6 @@ public class DataListingTest extends BaseTest {
     dataListing.listWatchList();
     dataListing.getWatchlistNumberCheck();
     Utils.refresh(getDriver());
-    Assertions.assertTrue(dataListing.getWatchlistNumberCheck().contains("0 Titles"), "Something went wrong with watchlist.");
+    Assertions.assertTrue(dataListing.getWatchlistNumberCheck().contains("0 Titles"), TestData.LISTING_WORNG_TEXT);
   }
 }

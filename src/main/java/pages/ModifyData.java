@@ -8,14 +8,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ModifyData {
 
     private WebDriver driver;
-    private final By ACCOUNT_SETTINGS_LINK = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[6]");
+    private final By ACCOUNT_SETTINGS_LINK = By.xpath("//*[@id='navUserMenu-contents']//a[6]");
     private final By EDIT_PROFILE_LINK = By.xpath("//*[@id=\"main\"]/div/div[1]/ul/li[1]/a");
-    private final By EDIT_USER_ID_BUTTON = By.xpath("//*[@id=\"main\"]/div/div[1]/div[2]/a");
-    private final By WRITE_TO_USER_ID_FIELD = By.xpath("//*[@id=\"main\"]/div/form/div/input[2]");
-    private final By SAVE_MODIFIED_USER_ID_BUTTON = By.xpath("//*[@id=\"main\"]/div/form/p[2]/input");
+    private final By EDIT_USER_ID_BUTTON = By.xpath("//*[@class='auth-input-right-side auth-button-link']");
+    private final By WRITE_TO_USER_ID_FIELD = By.xpath("//*[@class='auth-input--input']");
+    private final By SAVE_MODIFIED_USER_ID_BUTTON = By.xpath("//*[@class='pretty_btn']");
     //private final By BACK_TO_ACCOUNT_SETTINGS = By.xpath("//*[@id=\"sidebar\"]/div[1]/p[4]/a");
-    private final By WRITE_TO_BIO = By.xpath("//*[@id=\"main\"]/div/div[2]/div[2]/textarea");
-    private final By SAVE_DESCRIPTION_BUTTON = By.xpath("//*[@id=\"main\"]/div/div[2]/div[2]/div/div[1]");
+    private final By WRITE_TO_BIO = By.xpath("//*[@class='multiline']");
+    private final By SAVE_DESCRIPTION_BUTTON = By.xpath("//*[@class='auth-button-link auth-button--primary']");
 
     public ModifyData(WebDriver driver) {
         this.driver = driver;

@@ -1,25 +1,23 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class DataListing {
 
     private WebDriver driver;
-    private final By SEARCH_FIELD = By.xpath("/html/body/div[2]/nav/div[2]/div[1]/form/div[2]/div/input");
-    private final By SEARCH_BUTTON = By.xpath("/html/body/div[2]/nav/div[2]/div[1]/form/button");
+    private final By SEARCH_FIELD = By.xpath("//*[@id='suggestion-search']");
+    private final By SEARCH_BUTTON = By.xpath("//*[@id='suggestion-search-button']");
     private final By FIRST_RESULT = By.xpath("//*[@id=\"main\"]/div/div[2]/table/tbody/tr[1]/td[2]/a");
     private final By WATCHLIST_BUTTON1 = By.xpath("//*[@id=\"knownfor\"]/div[1]/div[1]/div");
     private final By WATCHLIST_BUTTON2 = By.xpath("//*[@id=\"knownfor\"]/div[2]/div[1]/div");
     private final By WATCHLIST_BUTTON3 = By.xpath("//*[@id=\"knownfor\"]/div[3]/div[1]/div");
     private final By WATCHLIST_BUTTON4 = By.xpath("//*[@id=\"knownfor\"]/div[4]/div[1]/div");
-    private final By WATCHLIST_LIST = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[4]/a/div");
+    private final By WATCHLIST_LIST = By.xpath("//*[@class='NavWatchlistButton-sc-1b65w5j-0 kaVyhF imdb-header__watchlist-button']");
     private final By NUMBER_OF_WATCHLIST = By.xpath("//*[@id=\"center-1-react\"]/div/div[2]/div[1]/div[2]/div");
 
     //constructor

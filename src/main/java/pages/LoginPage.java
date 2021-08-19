@@ -14,11 +14,11 @@ public class LoginPage {
     //private final By IMDB_EMAIL_FIELD = By.id("ap_email"); //Sign in with IMDB data
     //private final By IMDB_PASSWORD_FIELD = By.id("ap_password"); //Sign in with IMDB data
     //private final By IMDB_LOGIN_BUTTON = By.id("signInSubmit"); //Sign in with IMDB data
-    private final By SIGN_IN_WITH_GOOGLE = By.xpath("//*[@id=\"signin-options\"]/div/div[1]/a[4]/span[2]");
-    private final By GOOGLE_EMAIL_FIELD = By.xpath("//*[@id=\"identifierId\"]");
-    private final By GOOGLE_NEXT_BUTTON = By.xpath("//*[@id=\"identifierNext\"]/div/button/span");
-    private final By GOOGLE_PASSWORD_FIELD = By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input");
-    private final By GOOGLE_NEXT_NEXT_BUTTON = By.xpath("//*[@id=\"passwordNext\"]/div/button/span");
+    private final By SIGN_IN_WITH_GOOGLE = By.xpath("//*[@id='signin-options']//div//a[4]");
+    private final By GOOGLE_EMAIL_FIELD = By.xpath("//*[@id='identifierId']");
+    private final By GOOGLE_NEXT_BUTTON = By.xpath("//*[@class='qhFLie']");
+    private final By GOOGLE_PASSWORD_FIELD = By.xpath("//input[@type='password']");
+    private final By GOOGLE_NEXT_NEXT_BUTTON = By.xpath("//*[@class='FliLIb DL0QTb']");
 
     //constructor
     public LoginPage(WebDriver driver) {

@@ -15,7 +15,7 @@ public class HomePage {
 
     //click on sing-in icon at homepage
     public LoginPage clickSignInPage() {
-        clickLink("//*[@id=\"imdbHeader\"]/div[2]/div[5]/a/div");
+        clickLink("//*[@class='_3x17Igk9XRXcaKrcG3_MXQ navbar__user UserMenu-sc-1poz515-0 lkfvZn']");
         return new LoginPage(driver);
     }
 
