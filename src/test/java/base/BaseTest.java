@@ -17,7 +17,7 @@ public class BaseTest {
     protected String email = userData[0];
     protected String password = "CodeCool2021";
 
-    private WebDriver driver;
+    protected WebDriver driver;
 
     public WebDriver getDriver() {
         return driver;

@@ -22,8 +22,6 @@ import static base.TestData.dataSearch;
 
 public class DataListingTest extends BaseTest {
 
-  private WebDriver driver;
-
   @Test
   @DisplayName("TC-IMDB_008")
   @Order(1)
