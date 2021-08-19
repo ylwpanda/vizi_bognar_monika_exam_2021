@@ -36,6 +36,8 @@ public class LoginPage {
         //wait.until(ExpectedConditions.visibilityOfElementLocated(GOOGLE_EMAIL_FIELD));
         driver.findElement(GOOGLE_EMAIL_FIELD).sendKeys(email);
         driver.findElement(GOOGLE_NEXT_BUTTON).click();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
 
     //fill the password field with data
