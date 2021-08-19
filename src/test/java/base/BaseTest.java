@@ -38,7 +38,7 @@ public class BaseTest {
         //driver = new ChromeDriver(ChromeOptions); //Chrome Profile 3 settings
         ChromeOptions.addArguments("--no-sandbox");
         ChromeOptions.addArguments("--disable-dev-shm-usage");
-        //ChromeOptions.addArguments("--headless");
+        ChromeOptions.addArguments("--headless");
         ChromeOptions.addArguments("--disable-gpu");
         //ChromeOptions.addArguments("--disable-extensions");
         ChromeOptions.addArguments("--allow-insecure-localhost");
