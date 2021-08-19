@@ -27,14 +27,14 @@ public class DataListing {
 
     //fill the search field at homepage
     public void setSearchField(String dataSearch){
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.presenceOfElementLocated(SEARCH_FIELD));
+        //WebDriverWait wait = new WebDriverWait(driver, 10);
+        //wait.until(ExpectedConditions.presenceOfElementLocated(SEARCH_FIELD));
         driver.findElement(SEARCH_FIELD).sendKeys(dataSearch);
     }
     //List/unlist movies to watchlist
     public void listWatchList(){
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(WATCHLIST_BUTTON1));
+        //WebDriverWait wait = new WebDriverWait(driver, 10);
+        //wait.until(ExpectedConditions.elementToBeClickable(WATCHLIST_BUTTON1));
         driver.findElement(WATCHLIST_BUTTON1).click();
         driver.findElement(WATCHLIST_BUTTON2).click();
         driver.findElement(WATCHLIST_BUTTON3).click();
@@ -53,7 +53,7 @@ public class DataListing {
         return new SearchPage(driver);
     }
     public String getWatchlistNumberCheck() {
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         return driver.findElement(NUMBER_OF_WATCHLIST).getText();
     }
 

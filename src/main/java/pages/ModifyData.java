@@ -25,14 +25,14 @@ public class ModifyData {
     public void editProfileUserID(String newUserID){
         HomePage homePage = new HomePage(driver);
         homePage.clickProfileButton();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(ACCOUNT_SETTINGS_LINK));
+        //WebDriverWait wait = new WebDriverWait(driver, 10);
+        //wait.until(ExpectedConditions.elementToBeClickable(ACCOUNT_SETTINGS_LINK));
         driver.findElement(ACCOUNT_SETTINGS_LINK).click();
-        wait.until(ExpectedConditions.elementToBeClickable(EDIT_PROFILE_LINK));
+        //wait.until(ExpectedConditions.elementToBeClickable(EDIT_PROFILE_LINK));
         driver.findElement(EDIT_PROFILE_LINK).click();
-        wait.until(ExpectedConditions.elementToBeClickable(EDIT_USER_ID_BUTTON));
+        //wait.until(ExpectedConditions.elementToBeClickable(EDIT_USER_ID_BUTTON));
         driver.findElement(EDIT_USER_ID_BUTTON).click();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(WRITE_TO_USER_ID_FIELD));
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(WRITE_TO_USER_ID_FIELD));
         driver.findElement(WRITE_TO_USER_ID_FIELD).clear();
         driver.findElement(WRITE_TO_USER_ID_FIELD).sendKeys(newUserID);
         driver.findElement(SAVE_MODIFIED_USER_ID_BUTTON).click(); //You have successfully changed your User ID assert
@@ -42,12 +42,12 @@ public class ModifyData {
     public void editBio(String bioText){
         HomePage homePage = new HomePage(driver);
         homePage.clickProfileButton();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(ACCOUNT_SETTINGS_LINK));
+        //WebDriverWait wait = new WebDriverWait(driver, 10);
+        //wait.until(ExpectedConditions.elementToBeClickable(ACCOUNT_SETTINGS_LINK));
         driver.findElement(ACCOUNT_SETTINGS_LINK).click();
-        wait.until(ExpectedConditions.elementToBeClickable(EDIT_PROFILE_LINK));
+        //wait.until(ExpectedConditions.elementToBeClickable(EDIT_PROFILE_LINK));
         driver.findElement(EDIT_PROFILE_LINK).click();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(WRITE_TO_BIO));
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(WRITE_TO_BIO));
         driver.findElement(WRITE_TO_BIO).sendKeys(bioText);
         driver.findElement(SAVE_DESCRIPTION_BUTTON).click();
     }
@@ -56,12 +56,12 @@ public class ModifyData {
     public void deleteBio() {
         HomePage homePage = new HomePage(driver);
         homePage.clickProfileButton();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(ACCOUNT_SETTINGS_LINK));
+        //WebDriverWait wait = new WebDriverWait(driver, 10);
+        //wait.until(ExpectedConditions.elementToBeClickable(ACCOUNT_SETTINGS_LINK));
         driver.findElement(ACCOUNT_SETTINGS_LINK).click();
-        wait.until(ExpectedConditions.elementToBeClickable(EDIT_PROFILE_LINK));
+        //wait.until(ExpectedConditions.elementToBeClickable(EDIT_PROFILE_LINK));
         driver.findElement(EDIT_PROFILE_LINK).click();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(WRITE_TO_BIO));
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(WRITE_TO_BIO));
         driver.findElement(WRITE_TO_BIO).clear();
         driver.findElement(SAVE_DESCRIPTION_BUTTON).click();
     }

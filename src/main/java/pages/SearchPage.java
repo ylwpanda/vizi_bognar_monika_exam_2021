@@ -29,8 +29,8 @@ public class SearchPage {
         //HomePage homePage = new HomePage(driver);
         //homePage.clickMenuButton();
         //driver.findElement(TOP_RATED_LINK).click();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(DRAMA_LINK));
+        //WebDriverWait wait = new WebDriverWait(driver, 10);
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(DRAMA_LINK));
         driver.findElement(DRAMA_LINK).click();
     }
 

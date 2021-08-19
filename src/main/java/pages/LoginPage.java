@@ -32,22 +32,22 @@ public class LoginPage {
 
     //fill the email field with data and click to the next button
     public void setEmail(String email){
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(GOOGLE_EMAIL_FIELD));
+        //WebDriverWait wait = new WebDriverWait(driver, 20);
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(GOOGLE_EMAIL_FIELD));
         driver.findElement(GOOGLE_EMAIL_FIELD).sendKeys(email);
         driver.findElement(GOOGLE_NEXT_BUTTON).click();
     }
 
     //fill the password field with data
     public void setPassword(String password){
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(GOOGLE_PASSWORD_FIELD));
+        //WebDriverWait wait = new WebDriverWait(driver, 20);
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(GOOGLE_PASSWORD_FIELD));
         driver.findElement(GOOGLE_PASSWORD_FIELD).sendKeys(password);
     }
 
     //click on next button at password page
     public SignedInIMDB clickLoginButton(){
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.findElement(GOOGLE_NEXT_NEXT_BUTTON).click();
         return new SignedInIMDB(driver);
     }

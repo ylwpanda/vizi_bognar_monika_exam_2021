@@ -20,14 +20,14 @@ public class LogoutPage {
     //click on profile menu at homepage
     public void clickProfileButton() {
         driver.findElement(PROFILE_BUTTON).click();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.presenceOfElementLocated(PROFILE_BUTTON));
+        //WebDriverWait wait = new WebDriverWait(driver, 10);
+        //wait.until(ExpectedConditions.presenceOfElementLocated(PROFILE_BUTTON));
     }
 
     //click on sign-out in profile menu
     public void clickLogoutButton() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(LOGOUT_BUTTON));
+        //WebDriverWait wait = new WebDriverWait(driver, 10);
+        //wait.until(ExpectedConditions.elementToBeClickable(LOGOUT_BUTTON));
         driver.findElement(LOGOUT_BUTTON).click();
     }
 }

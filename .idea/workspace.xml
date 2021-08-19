@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="window-size=1159, 629">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DataListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DataListing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ModifyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ModifyData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="headless tests run successfully" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -396,7 +384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629358120396</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="headless tests run successfully">
+      <created>1629366215742</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1629366215742</updated>
+    </task>
+    <task id="LOCAL-00036" summary="headless tests run successfully">
+      <created>1629366273663</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1629366273663</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -412,7 +414,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="file reading, writing works!" />
     <MESSAGE value="pom.xml refresh" />
     <MESSAGE value="Modifing data issues ready." />
     <MESSAGE value="Maven Compiler Plugin refressed." />
@@ -437,7 +438,8 @@
     <MESSAGE value="BaseTest ChromeOptions.addArguments(&quot;--window-size=1920,1080&quot;);" />
     <MESSAGE value="window-size=2560,1600" />
     <MESSAGE value="window-size=1159, 629" />
-    <option name="LAST_COMMIT_MESSAGE" value="window-size=1159, 629" />
+    <MESSAGE value="headless tests run successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="headless tests run successfully" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
