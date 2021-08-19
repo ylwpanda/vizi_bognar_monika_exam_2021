@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="DataListingTest allure screenshot">
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="driver repaired.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -423,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629380253245</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="driver repaired.">
+      <created>1629381085102</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1629381085102</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +445,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Maven Compiler Plugin refressed." />
     <MESSAGE value="Java version refressed." />
     <MESSAGE value="Maven refrehed." />
     <MESSAGE value="pom.xml refreshed." />
@@ -464,7 +469,8 @@
     <MESSAGE value="headless tests run successfully" />
     <MESSAGE value="//waits" />
     <MESSAGE value="DataListingTest allure screenshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataListingTest allure screenshot" />
+    <MESSAGE value="driver repaired." />
+    <option name="LAST_COMMIT_MESSAGE" value="driver repaired." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

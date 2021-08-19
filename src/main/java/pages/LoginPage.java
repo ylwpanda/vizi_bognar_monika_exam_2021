@@ -16,7 +16,7 @@ public class LoginPage {
     //private final By IMDB_LOGIN_BUTTON = By.id("signInSubmit"); //Sign in with IMDB data
     private final By SIGN_IN_WITH_GOOGLE = By.xpath("//*[@id='signin-options']//div//a[4]");
     private final By GOOGLE_EMAIL_FIELD = By.xpath("//*[@id='identifierId']");
-    private final By GOOGLE_NEXT_BUTTON = By.xpath("//*[@class='qhFLie']");
+    private final By GOOGLE_NEXT_BUTTON = By.xpath("//*[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b']");
     private final By GOOGLE_PASSWORD_FIELD = By.xpath("//input[@type='password']");
     private final By GOOGLE_NEXT_NEXT_BUTTON = By.xpath("//*[@class='FliLIb DL0QTb']");
 
