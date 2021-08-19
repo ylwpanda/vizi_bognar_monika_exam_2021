@@ -1,0 +1,283 @@
+{
+  "uid" : "5e4e6ce9838accec",
+  "name" : "TC-IMDB_007",
+  "fullName" : "privacypolicy.PrivacyPolicyTest.saveToFileTest",
+  "historyId" : "85e185ac6ba9d7a7e40976b687f9bf0a",
+  "time" : {
+    "start" : 1629384319630,
+    "stop" : 1629384369854,
+    "duration" : 50224
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629384319633,
+      "stop" : 1629384349949,
+      "duration" : 30316
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629384369756,
+      "stop" : 1629384369853,
+      "duration" : 97
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az72-989"
+  }, {
+    "name" : "thread",
+    "value" : "2848@fv-az72-989.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "privacypolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "testClass",
+    "value" : "privacypolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "saveToFileTest"
+  }, {
+    "name" : "suite",
+    "value" : "privacypolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 16,
+        "unknown" : 0,
+        "total" : 22
+      },
+      "items" : [ {
+        "uid" : "7efb4cf0f12fc7a1",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/43//#testresult/7efb4cf0f12fc7a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629383549880,
+          "stop" : 1629383556093,
+          "duration" : 6213
+        }
+      }, {
+        "uid" : "c2329e2d0d12058e",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/42//#testresult/c2329e2d0d12058e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629382544491,
+          "stop" : 1629382550045,
+          "duration" : 5554
+        }
+      }, {
+        "uid" : "9a0b78512dae2d99",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/41//#testresult/9a0b78512dae2d99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629381946940,
+          "stop" : 1629381956067,
+          "duration" : 9127
+        }
+      }, {
+        "uid" : "335d76215f1a4461",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/40//#testresult/335d76215f1a4461",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629381196593,
+          "stop" : 1629381202015,
+          "duration" : 5422
+        }
+      }, {
+        "uid" : "fc6cafd202eb782f",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/39//#testresult/fc6cafd202eb782f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629380360888,
+          "stop" : 1629380370262,
+          "duration" : 9374
+        }
+      }, {
+        "uid" : "d3ba943df10b81af",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/38//#testresult/d3ba943df10b81af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629379896204,
+          "stop" : 1629379905217,
+          "duration" : 9013
+        }
+      }, {
+        "uid" : "1cf1127dd2469950",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/37//#testresult/1cf1127dd2469950",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629366907724,
+          "stop" : 1629366912734,
+          "duration" : 5010
+        }
+      }, {
+        "uid" : "2fe4003a94b353da",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/36//#testresult/2fe4003a94b353da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629366492120,
+          "stop" : 1629366497304,
+          "duration" : 5184
+        }
+      }, {
+        "uid" : "92ed9a9dc24cf01c",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/35//#testresult/92ed9a9dc24cf01c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629358308195,
+          "stop" : 1629358313762,
+          "duration" : 5567
+        }
+      }, {
+        "uid" : "f2b05337f26b06a8",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/34//#testresult/f2b05337f26b06a8",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <li role=\"presentation\" class=\"ipc-inline-list__item\">...</li> is not clickable at point (1422, 1580). Other element would receive the click: <div id=\"ipc-wrap-background-id\" style=\"position:absolute;width:100%;height:100%\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-628', ip: '10.1.0.84', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.O8V6Py}, goog:chromeOptions: {debuggerAddress: localhost:42547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ad03bfdc10d2922ee3e7f2b7244b3321",
+        "time" : {
+          "start" : 1629308310547,
+          "stop" : 1629308318752,
+          "duration" : 8205
+        }
+      }, {
+        "uid" : "ba47655f71b504f0",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/33//#testresult/ba47655f71b504f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629307424676,
+          "stop" : 1629307429422,
+          "duration" : 4746
+        }
+      }, {
+        "uid" : "69f13e3fe900b45b",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/32//#testresult/69f13e3fe900b45b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629304552532,
+          "stop" : 1629304559014,
+          "duration" : 6482
+        }
+      }, {
+        "uid" : "aba79efd82d1801e",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/31//#testresult/aba79efd82d1801e",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-270', ip: '10.1.1.56', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x562d33556a63 <unknown>\n#1 0x562d332cb458 <unknown>\n#2 0x562d332ee2e3 <unknown>\n#3 0x562d332e9e9f <unknown>\n#4 0x562d33323b72 <unknown>\n#5 0x562d3331dfd3 <unknown>\n#6 0x562d332f4514 <unknown>\n#7 0x562d332f5505 <unknown>\n#8 0x562d33582e2e <unknown>\n#9 0x562d33598886 <unknown>\n#10 0x562d33583d75 <unknown>\n#11 0x562d33599d94 <unknown>\n#12 0x562d3357a8eb <unknown>\n#13 0x562d335b4cd8 <unknown>\n#14 0x562d335b4e58 <unknown>\n#15 0x562d335cedfd <unknown>\n#16 0x7fad0f86e609 start_thread\n",
+        "time" : {
+          "start" : 1629304319063,
+          "stop" : 1629304319216,
+          "duration" : 153
+        }
+      }, {
+        "uid" : "4373140d1703c89c",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/30//#testresult/4373140d1703c89c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629294795893,
+          "stop" : 1629294802865,
+          "duration" : 6972
+        }
+      }, {
+        "uid" : "dd200667003e9c76",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/29//#testresult/dd200667003e9c76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629293639727,
+          "stop" : 1629293647399,
+          "duration" : 7672
+        }
+      }, {
+        "uid" : "ee8bd43d69528067",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/28//#testresult/ee8bd43d69528067",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629293060846,
+          "stop" : 1629293071791,
+          "duration" : 10945
+        }
+      }, {
+        "uid" : "b1561b991011ed69",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/27//#testresult/b1561b991011ed69",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-548', ip: '10.1.1.18', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55e273ff5a63 <unknown>\n#1 0x55e273d6a458 <unknown>\n#2 0x55e273d8d2e3 <unknown>\n#3 0x55e273d88e9f <unknown>\n#4 0x55e273dc2b72 <unknown>\n#5 0x55e273dbcfd3 <unknown>\n#6 0x55e273d93514 <unknown>\n#7 0x55e273d94505 <unknown>\n#8 0x55e274021e2e <unknown>\n#9 0x55e274037886 <unknown>\n#10 0x55e274022d75 <unknown>\n#11 0x55e274038d94 <unknown>\n#12 0x55e2740198eb <unknown>\n#13 0x55e274053cd8 <unknown>\n#14 0x55e274053e58 <unknown>\n#15 0x55e27406ddfd <unknown>\n#16 0x7f9660420609 start_thread\n",
+        "time" : {
+          "start" : 1629292825776,
+          "stop" : 1629292825942,
+          "duration" : 166
+        }
+      }, {
+        "uid" : "7f5b3aeaac03e575",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/26//#testresult/7f5b3aeaac03e575",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.140', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55fede4aba63 <unknown>\n#1 0x55fede220458 <unknown>\n#2 0x55fede2432e3 <unknown>\n#3 0x55fede23ee9f <unknown>\n#4 0x55fede278b72 <unknown>\n#5 0x55fede272fd3 <unknown>\n#6 0x55fede249514 <unknown>\n#7 0x55fede24a505 <unknown>\n#8 0x55fede4d7e2e <unknown>\n#9 0x55fede4ed886 <unknown>\n#10 0x55fede4d8d75 <unknown>\n#11 0x55fede4eed94 <unknown>\n#12 0x55fede4cf8eb <unknown>\n#13 0x55fede509cd8 <unknown>\n#14 0x55fede509e58 <unknown>\n#15 0x55fede523dfd <unknown>\n#16 0x7fac5efba609 start_thread\n",
+        "time" : {
+          "start" : 1628602733244,
+          "stop" : 1628602733393,
+          "duration" : 149
+        }
+      }, {
+        "uid" : "e76abc4f45540730",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/25//#testresult/e76abc4f45540730",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628425571822,
+          "stop" : 1628425576943,
+          "duration" : 5121
+        }
+      }, {
+        "uid" : "7949889c296c6fa8",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/24//#testresult/7949889c296c6fa8",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.40', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55d0f818ba63 <unknown>\n#1 0x55d0f7f00458 <unknown>\n#2 0x55d0f7f232e3 <unknown>\n#3 0x55d0f7f1ee9f <unknown>\n#4 0x55d0f7f58b72 <unknown>\n#5 0x55d0f7f52fd3 <unknown>\n#6 0x55d0f7f29514 <unknown>\n#7 0x55d0f7f2a505 <unknown>\n#8 0x55d0f81b7e2e <unknown>\n#9 0x55d0f81cd886 <unknown>\n#10 0x55d0f81b8d75 <unknown>\n#11 0x55d0f81ced94 <unknown>\n#12 0x55d0f81af8eb <unknown>\n#13 0x55d0f81e9cd8 <unknown>\n#14 0x55d0f81e9e58 <unknown>\n#15 0x55d0f8203dfd <unknown>\n#16 0x7fb48131f609 start_thread\n",
+        "time" : {
+          "start" : 1628425284346,
+          "stop" : 1628425284527,
+          "duration" : 181
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5e4e6ce9838accec.json",
+  "parameterValues" : [ ]
+}
