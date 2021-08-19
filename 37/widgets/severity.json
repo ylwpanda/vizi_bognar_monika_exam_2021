@@ -1,0 +1,111 @@
+[ {
+  "uid" : "4c2722eb26ed7a5f",
+  "name" : "TC-IMDB_003",
+  "time" : {
+    "start" : 1629366984531,
+    "stop" : 1629366988852,
+    "duration" : 4321
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9fa73db225ceb238",
+  "name" : "TC-IMDB_010",
+  "time" : {
+    "start" : 1629366894935,
+    "stop" : 1629366899057,
+    "duration" : 4122
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f881f6972947e252",
+  "name" : "TC-IMDB_011",
+  "time" : {
+    "start" : 1629366873099,
+    "stop" : 1629366890630,
+    "duration" : 17531
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1cf1127dd2469950",
+  "name" : "TC-IMDB_007",
+  "time" : {
+    "start" : 1629366907724,
+    "stop" : 1629366912734,
+    "duration" : 5010
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54c306df88d7e046",
+  "name" : "TC-IMDB_014",
+  "time" : {
+    "start" : 1629366994636,
+    "stop" : 1629366998811,
+    "duration" : 4175
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cd7f7c254f58acb1",
+  "name" : "TC-IMDB_015",
+  "time" : {
+    "start" : 1629366998815,
+    "stop" : 1629367002945,
+    "duration" : 4130
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6a77ae2e6e336894",
+  "name" : "TC-IMDB_006",
+  "time" : {
+    "start" : 1629366903200,
+    "stop" : 1629366907708,
+    "duration" : 4508
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5eb5eb3df27beea9",
+  "name" : "TC-IMDB_008",
+  "time" : {
+    "start" : 1629366988860,
+    "stop" : 1629366994631,
+    "duration" : 5771
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8c5e1c8926ee917d",
+  "name" : "TC-IMDB_013",
+  "time" : {
+    "start" : 1629366890698,
+    "stop" : 1629366894924,
+    "duration" : 4226
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "72ac10ebdf02034",
+  "name" : "TC-IMDB_009",
+  "time" : {
+    "start" : 1629366912746,
+    "stop" : 1629366984515,
+    "duration" : 71769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53c64ce06f520013",
+  "name" : "TC-IMDB_012",
+  "time" : {
+    "start" : 1629366899062,
+    "stop" : 1629366903191,
+    "duration" : 4129
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
