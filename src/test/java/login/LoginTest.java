@@ -15,13 +15,9 @@ public class LoginTest extends BaseTest {
     public void testSuccessfulLogin() throws InterruptedException {
         LoginPage loginPage = homePage.clickSignInPage();
         loginPage.setSingIn();
-        Utils.waitForXMillis(20);
         loginPage.setEmail(email);
-        Utils.waitForXMillis(20);
         loginPage.setPassword(password);
-        Utils.waitForXMillis(20);
         SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
-        Utils.scrollDown(getDriver());
         signedInIMDB.getLoginCheck();
         Assertions.assertTrue(signedInIMDB.getLoginCheck().contains("Mónika"), "You are not logged in!");
     }

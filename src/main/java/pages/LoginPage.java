@@ -49,7 +49,7 @@ public class LoginPage {
 
     //click on next button at password page
     public SignedInIMDB clickLoginButton(){
-        //driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(GOOGLE_NEXT_NEXT_BUTTON).click();
         return new SignedInIMDB(driver);
     }

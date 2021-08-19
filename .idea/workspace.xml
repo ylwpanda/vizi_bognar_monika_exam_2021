@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="modified basetest">
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="headless">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignedInIMDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignedInIMDB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -458,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629384085924</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="wait LoginPage">
+      <created>1629385792840</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1629385792840</updated>
+    </task>
+    <task id="LOCAL-00046" summary="headless">
+      <created>1629385934014</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1629385934014</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,8 +488,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Every login was refactored to google login." />
-    <MESSAGE value="yml file update" />
     <MESSAGE value="pom update" />
     <MESSAGE value="Logout works." />
     <MESSAGE value="allure result removed" />
@@ -499,7 +511,9 @@
     <MESSAGE value="GOOGLE_NEXT_BUTTON xpath changed" />
     <MESSAGE value="implicityWait Google next button" />
     <MESSAGE value="modified basetest" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified basetest" />
+    <MESSAGE value="wait LoginPage" />
+    <MESSAGE value="headless" />
+    <option name="LAST_COMMIT_MESSAGE" value="headless" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
