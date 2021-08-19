@@ -30,13 +30,21 @@ public class DataListingTest extends BaseTest {
   public void testDataListing() {
     getDriver().get(TestData.URL);
     LoginPage loginPage = homePage.clickSignInPage();
+    TakeScreenshot();
     loginPage.setSingIn();
+    TakeScreenshot();
     loginPage.setEmail(email);
+    TakeScreenshot();
     loginPage.setPassword(password);
+    TakeScreenshot();
     SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+    TakeScreenshot();
     DataListing dataListing = homePage.clickDataListing();
+    TakeScreenshot();
     dataListing.setSearchField(dataSearch);
+    TakeScreenshot();
     dataListing.clickSearchButton();
+    TakeScreenshot();
   }
 
   @Test
