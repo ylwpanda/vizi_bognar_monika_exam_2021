@@ -1,0 +1,162 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-802', ip: '10.1.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.rJFum5}, goog:chromeOptions: {debuggerAddress: localhost:42629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bdca468e11a7a8de300fe43fc687bc59",
+      "children" : [ {
+        "name" : "TC-IMDB_011",
+        "uid" : "853a66c1247d46d",
+        "parentUid" : "353cf144a94c4a3e201230fd5485e674",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629366351088,
+          "stop" : 1629366391752,
+          "duration" : 40664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "353cf144a94c4a3e201230fd5485e674"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-802', ip: '10.1.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.9e9zb6}, goog:chromeOptions: {debuggerAddress: localhost:43411}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b372319052a83c5f3df43817b5989aec",
+      "children" : [ {
+        "name" : "TC-IMDB_013",
+        "uid" : "2d4da211b653d279",
+        "parentUid" : "9febb6e5217b43835ed748c008955fdd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629366391833,
+          "stop" : 1629366417259,
+          "duration" : 25426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9febb6e5217b43835ed748c008955fdd"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-802', ip: '10.1.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.NaZQDW}, goog:chromeOptions: {debuggerAddress: localhost:37265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7729b724b9be499e692f4501ed46a0aa",
+      "children" : [ {
+        "name" : "TC-IMDB_010",
+        "uid" : "e15c82af2ba7e41f",
+        "parentUid" : "b8c2886e8f627f4794fd41ad7436465c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629366417264,
+          "stop" : 1629366441978,
+          "duration" : 24714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b8c2886e8f627f4794fd41ad7436465c"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-802', ip: '10.1.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.48mhnd}, goog:chromeOptions: {debuggerAddress: localhost:44293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 74e9dbbe4ddba4f4ab4b5b45bf2ce99b",
+      "children" : [ {
+        "name" : "TC-IMDB_012",
+        "uid" : "a15e8e68d87997e1",
+        "parentUid" : "24cbf9198a105fa53703c3682d5ad3c8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629366441983,
+          "stop" : 1629366466905,
+          "duration" : 24922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24cbf9198a105fa53703c3682d5ad3c8"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-802', ip: '10.1.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.5MZG67}, goog:chromeOptions: {debuggerAddress: localhost:40429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 39a3672fd37363b2c3b152a66a134366",
+      "children" : [ {
+        "name" : "TC-IMDB_006",
+        "uid" : "be2db7cb0b02c6e3",
+        "parentUid" : "acade1a8d392294b72a4f61fdab8758c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629366466912,
+          "stop" : 1629366492108,
+          "duration" : 25196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "acade1a8d392294b72a4f61fdab8758c"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-802', ip: '10.1.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.GJGeyu}, goog:chromeOptions: {debuggerAddress: localhost:42405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7347c03ecf4475c4fe9b7a0c65177b57",
+      "children" : [ {
+        "name" : "TC-IMDB_003",
+        "uid" : "9799f894b24790cf",
+        "parentUid" : "235364c9cc71ccf56f2a3045cb49adb3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629366584735,
+          "stop" : 1629366609660,
+          "duration" : 24925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "235364c9cc71ccf56f2a3045cb49adb3"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-802', ip: '10.1.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.hcqN9y}, goog:chromeOptions: {debuggerAddress: localhost:41243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1e6abffb93ee7441e2789ba743bf31ac",
+      "children" : [ {
+        "name" : "TC-IMDB_008",
+        "uid" : "f4a266a48370278c",
+        "parentUid" : "e2dac9ca57fa4d54fe9f3ec205917bb8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629366609680,
+          "stop" : 1629366636526,
+          "duration" : 26846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e2dac9ca57fa4d54fe9f3ec205917bb8"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-802', ip: '10.1.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.6poQCj}, goog:chromeOptions: {debuggerAddress: localhost:40173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3e6a72dbf89874640e6a89fb35131fbc",
+      "children" : [ {
+        "name" : "TC-IMDB_014",
+        "uid" : "591e970ea81c2937",
+        "parentUid" : "27d3bd889a596d8d2be715d9eb2ab88c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629366636529,
+          "stop" : 1629366661316,
+          "duration" : 24787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27d3bd889a596d8d2be715d9eb2ab88c"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-802', ip: '10.1.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.8xONEJ}, goog:chromeOptions: {debuggerAddress: localhost:44629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bc69af0f96f44149164bd6da2501cf6e",
+      "children" : [ {
+        "name" : "TC-IMDB_015",
+        "uid" : "74fdfb475ecdfc73",
+        "parentUid" : "3682b78804382fa66e85451bae5748f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629366661320,
+          "stop" : 1629366685925,
+          "duration" : 24605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3682b78804382fa66e85451bae5748f5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
