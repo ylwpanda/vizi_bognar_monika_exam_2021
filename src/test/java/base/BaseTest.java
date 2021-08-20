@@ -29,20 +29,19 @@ public class BaseTest {
     public void setUp() { //setup chormedriver
         WebDriverManager.chromedriver().setup();
         System.out.println("Test is Starting...");
-        //String chromeProfilePath = "/Users/YLWPanda/Library/Application Support/Google/Chrome/Profile 3/"; //Chrome Profile 3 settings
+        String chromeProfilePath = "/Users/YLWPanda/Library/Application Support/Google/Chrome/Profile 3/"; //Chrome Profile 3 settings
         var ChromeOptions = new ChromeOptions();
-        //var ChromeOptions = new ChromeOptions(); //Chrome Profile 3 settings
-        //ChromeOptions.addArguments("chrome.switches", "--disable-extensions"); //Chrome Profile 3 settings
-        //ChromeOptions.addArguments("user-data-dir=" + chromeProfilePath); //Chrome Profile 3 settings
-        //ChromeOptions.addArguments("--disable-notifications"); //Chrome Profile 3 settings
-        //driver = new ChromeDriver(ChromeOptions); //Chrome Profile 3 settings
         ChromeOptions.addArguments("--no-sandbox");
         ChromeOptions.addArguments("--disable-dev-shm-usage");
         ChromeOptions.addArguments("--headless");
         ChromeOptions.addArguments("--disable-gpu");
+        ChromeOptions.addArguments("chrome.switches", "--disable-extensions"); //Chrome Profile 3 settings
+        ChromeOptions.addArguments("user-data-dir=" + chromeProfilePath); //Chrome Profile 3 settings
+        ChromeOptions.addArguments("--disable-notifications"); //Chrome Profile 3 settings
+        driver = new ChromeDriver(ChromeOptions); //Chrome Profile 3 settings
         //ChromeOptions.addArguments("--disable-extensions");
-        ChromeOptions.addArguments("--allow-insecure-localhost");
-        ChromeOptions.addArguments("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36");
+        //ChromeOptions.addArguments("--allow-insecure-localhost");
+        //ChromeOptions.addArguments("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36");
         ChromeOptions.addArguments("--window-size=2560,1600"); //mac(2560,1600)1920,1080
         //ChromeOptions.addArguments("--incognito");
         driver = new ChromeDriver(ChromeOptions);

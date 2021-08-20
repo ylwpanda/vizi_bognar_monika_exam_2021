@@ -29,9 +29,9 @@ public class DataListingTest extends BaseTest {
     getDriver().get(TestData.URL);
     LoginPage loginPage = homePage.clickSignInPage();
     loginPage.setSingIn();
-    loginPage.setEmail(email);
-    loginPage.setPassword(password);
-    SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+    //loginPage.setEmail(email);
+    //loginPage.setPassword(password);
+    //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
     DataListing dataListing = homePage.clickDataListing();
     dataListing.setSearchField(dataSearch);
     dataListing.clickSearchButton();
@@ -43,9 +43,9 @@ public class DataListingTest extends BaseTest {
   public void testWatchListing() {
     LoginPage loginPage = homePage.clickSignInPage();
     loginPage.setSingIn();
-    loginPage.setEmail(email);
-    loginPage.setPassword(password);
-    SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+    //loginPage.setEmail(email);
+    //loginPage.setPassword(password);
+    //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
     DataListing dataListing = homePage.clickDataListing();
     dataListing.setSearchField(dataSearch);
     dataListing.clickSearchButton();
@@ -61,9 +61,9 @@ public class DataListingTest extends BaseTest {
   public void testRemoveFromWatchListing() {
     LoginPage loginPage = homePage.clickSignInPage();
     loginPage.setSingIn();
-    loginPage.setEmail(email);
-    loginPage.setPassword(password);
-    SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+    //loginPage.setEmail(email);
+    //loginPage.setPassword(password);
+    //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
     DataListing dataListing = homePage.clickDataListing();
     dataListing.setSearchField(dataSearch);
     dataListing.clickSearchButton();

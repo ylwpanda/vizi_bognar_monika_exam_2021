@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="waits everywhere">
+    <list default="true" id="24fa18c5-217c-474e-8426-187217ea5f4d" name="Default Changelist" comment="printscreen LoginTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/DataListingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logout/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modify/ModifyDataTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DataListingTest.testDataListing">
+  <component name="RunManager" selected="JUnit.LoginTest.testSuccessfulLogin">
     <configuration name="DataListingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
@@ -83,17 +87,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutTest.testSuccessfulLogout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.testSuccessfulLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vizi_bognar_monika_vizsgaremek_2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logout.*" />
+          <option name="PATTERN" value="login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="logout" />
-      <option name="MAIN_CLASS_NAME" value="logout.LogoutTest" />
-      <option name="METHOD_NAME" value="testSuccessfulLogout" />
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTest.testSuccessfulLogin" />
         <item itemvalue="JUnit.DataListingTest.testDataListing" />
         <item itemvalue="JUnit.searchTest.morePagesListsTest" />
         <item itemvalue="JUnit.ModifyDataTest" />
         <item itemvalue="JUnit.DataListingTest" />
-        <item itemvalue="JUnit.LogoutTest.testSuccessfulLogout" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629386634907</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="printscreen LoginTest">
+      <created>1629441044911</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1629441044911</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +505,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Logout works." />
     <MESSAGE value="allure result removed" />
     <MESSAGE value="ProfileMenu and ProfileMenuTest added." />
     <MESSAGE value="options.addArguments(&quot;--no-sandbox&quot;);&#10;options.addArguments(&quot;--disable-dev-shm-usage&quot;); -- added to basetest" />
@@ -519,7 +529,8 @@
     <MESSAGE value="wait LoginPage" />
     <MESSAGE value="headless" />
     <MESSAGE value="waits everywhere" />
-    <option name="LAST_COMMIT_MESSAGE" value="waits everywhere" />
+    <MESSAGE value="printscreen LoginTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="printscreen LoginTest" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
