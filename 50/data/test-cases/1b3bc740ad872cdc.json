@@ -1,0 +1,304 @@
+{
+  "uid" : "1b3bc740ad872cdc",
+  "name" : "TC-IMDB_015",
+  "fullName" : "data.DataListingTest.testRemoveFromWatchListing",
+  "historyId" : "bd2d7771e1ed899424cb92cace8a7ac4",
+  "time" : {
+    "start" : 1629444579600,
+    "stop" : 1629444614443,
+    "duration" : 34843
+  },
+  "description" : "",
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-349', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zfkYYA}, goog:chromeOptions: {debuggerAddress: localhost:36069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b08bd536d447a2cc9ee65fd879c13456",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-349', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zfkYYA}, goog:chromeOptions: {debuggerAddress: localhost:36069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b08bd536d447a2cc9ee65fd879c13456\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat pages.LoginPage.setPassword(LoginPage.java:46)\n\tat data.DataListingTest.testRemoveFromWatchListing(DataListingTest.java:65)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:117)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:135)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:135)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629444579601,
+      "stop" : 1629444581694,
+      "duration" : 2093
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629444614364,
+      "stop" : 1629444614442,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az72-349"
+  }, {
+    "name" : "thread",
+    "value" : "3024@fv-az72-349.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "data.DataListingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "data.DataListingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRemoveFromWatchListing"
+  }, {
+    "name" : "suite",
+    "value" : "data.DataListingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 24,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 24
+      },
+      "items" : [ {
+        "uid" : "c45b68c37e3c7681",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/49//#testresult/c45b68c37e3c7681",
+        "status" : "broken",
+        "statusDetails" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x56150e6d8a63 <unknown>\n#1 0x56150e44d458 <unknown>\n#2 0x56150e472902 <unknown>\n#3 0x56150e46e3bd <unknown>\n#4 0x56150e46be9f <unknown>\n#5 0x56150e4a5b72 <unknown>\n#6 0x56150e49ffd3 <unknown>\n#7 0x56150e476514 <unknown>\n#8 0x56150e477505 <unknown>\n#9 0x56150e704e2e <unknown>\n#10 0x56150e71a886 <unknown>\n#11 0x56150e705d75 <unknown>\n#12 0x56150e71bd94 <unknown>\n#13 0x56150e6fc8eb <unknown>\n#14 0x56150e736cd8 <unknown>\n#15 0x56150e736e58 <unknown>\n#16 0x56150e750dfd <unknown>\n#17 0x7fbcfef4d609 start_thread\n",
+        "time" : {
+          "start" : 1629442751521,
+          "stop" : 1629442751574,
+          "duration" : 53
+        }
+      }, {
+        "uid" : "9f18a88cfdf9f24e",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/48//#testresult/9f18a88cfdf9f24e",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/nav/div[2]/div[1]/form/button\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-486', ip: '10.1.1.129', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.vxryyY}, goog:chromeOptions: {debuggerAddress: localhost:44753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e9e89c0aa29941e46c877c89a87abc67\n*** Element info: {Using=xpath, value=/html/body/div[2]/nav/div[2]/div[1]/form/button}",
+        "time" : {
+          "start" : 1629441369659,
+          "stop" : 1629441389813,
+          "duration" : 20154
+        }
+      }, {
+        "uid" : "5a1397384bbf72e2",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/47//#testresult/5a1397384bbf72e2",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.DxqDbl}, goog:chromeOptions: {debuggerAddress: localhost:46087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 42b300616c8aef3a4ebf6b55384df54c",
+        "time" : {
+          "start" : 1629386945907,
+          "stop" : 1629386971317,
+          "duration" : 25410
+        }
+      }, {
+        "uid" : "4c27a3c9926ac489",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/46//#testresult/4c27a3c9926ac489",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/nav/div[2]/div[1]/form/button\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-980', ip: '10.1.1.113', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zAuuPZ}, goog:chromeOptions: {debuggerAddress: localhost:38973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c4e6a3369897d40fd84afb582f299d05\n*** Element info: {Using=xpath, value=/html/body/div[2]/nav/div[2]/div[1]/form/button}",
+        "time" : {
+          "start" : 1629386319158,
+          "stop" : 1629386345330,
+          "duration" : 26172
+        }
+      }, {
+        "uid" : "9a700c0fd1335a2e",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/45//#testresult/9a700c0fd1335a2e",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-349', ip: '10.1.0.56', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55a697a5fa63 <unknown>\n#1 0x55a6977d4458 <unknown>\n#2 0x55a6977f72e3 <unknown>\n#3 0x55a6977f2e9f <unknown>\n#4 0x55a69782cb72 <unknown>\n#5 0x55a697826fd3 <unknown>\n#6 0x55a6977fd514 <unknown>\n#7 0x55a6977fe505 <unknown>\n#8 0x55a697a8be2e <unknown>\n#9 0x55a697aa1886 <unknown>\n#10 0x55a697a8cd75 <unknown>\n#11 0x55a697aa2d94 <unknown>\n#12 0x55a697a838eb <unknown>\n#13 0x55a697abdcd8 <unknown>\n#14 0x55a697abde58 <unknown>\n#15 0x55a697ad7dfd <unknown>\n#16 0x7f2bf0982609 start_thread\n",
+        "time" : {
+          "start" : 1629385868798,
+          "stop" : 1629385868950,
+          "duration" : 152
+        }
+      }, {
+        "uid" : "145df790b4052dd0",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/44//#testresult/145df790b4052dd0",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='identifierId']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-989', ip: '10.1.0.210', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.1OG1qS}, goog:chromeOptions: {debuggerAddress: localhost:46847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c73daab6aaf6e4794955a82eecb0ce79\n*** Element info: {Using=xpath, value=//*[@id='identifierId']}",
+        "time" : {
+          "start" : 1629384558619,
+          "stop" : 1629384584227,
+          "duration" : 25608
+        }
+      }, {
+        "uid" : "7d3e65c2923c6863",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/43//#testresult/7d3e65c2923c6863",
+        "status" : "broken",
+        "statusDetails" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-802', ip: '10.1.0.94', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.ws6pR0}, goog:chromeOptions: {debuggerAddress: localhost:40215}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 23d942a2c13db7c7f259c78749bc3dcd",
+        "time" : {
+          "start" : 1629383677049,
+          "stop" : 1629383682888,
+          "duration" : 5839
+        }
+      }, {
+        "uid" : "ddcf26d9ac823942",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/42//#testresult/ddcf26d9ac823942",
+        "status" : "broken",
+        "statusDetails" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-457', ip: '10.1.0.152', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.IZb8J5}, goog:chromeOptions: {debuggerAddress: localhost:38901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cf458c2ba05cbd7129e8ac135a6d794c",
+        "time" : {
+          "start" : 1629382659200,
+          "stop" : 1629382673634,
+          "duration" : 14434
+        }
+      }, {
+        "uid" : "d0050ed09abdde77",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/41//#testresult/d0050ed09abdde77",
+        "status" : "broken",
+        "statusDetails" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-989', ip: '10.1.0.143', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.wzI6YL}, goog:chromeOptions: {debuggerAddress: localhost:43623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: afd4d54a527b0b232e85b3deb052e8eb",
+        "time" : {
+          "start" : 1629382047055,
+          "stop" : 1629382051397,
+          "duration" : 4342
+        }
+      }, {
+        "uid" : "f955205c180e7920",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/40//#testresult/f955205c180e7920",
+        "status" : "broken",
+        "statusDetails" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-467', ip: '10.1.0.170', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.jaKrkN}, goog:chromeOptions: {debuggerAddress: localhost:39635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a64309b20342021481d5a40937901ed5",
+        "time" : {
+          "start" : 1629381310736,
+          "stop" : 1629381315691,
+          "duration" : 4955
+        }
+      }, {
+        "uid" : "42ee1e0e483cfd64",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/39//#testresult/42ee1e0e483cfd64",
+        "status" : "broken",
+        "statusDetails" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-368', ip: '10.1.0.128', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.6gipPc}, goog:chromeOptions: {debuggerAddress: localhost:42225}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e48999d5280a6fbfdb1efb36aada42d6",
+        "time" : {
+          "start" : 1629380485952,
+          "stop" : 1629380493199,
+          "duration" : 7247
+        }
+      }, {
+        "uid" : "2b29ee859c6aac34",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/38//#testresult/2b29ee859c6aac34",
+        "status" : "broken",
+        "statusDetails" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-989', ip: '10.1.1.115', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.jz5TRq}, goog:chromeOptions: {debuggerAddress: localhost:39037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2b067869ccde2dab40f1b8668169c82a",
+        "time" : {
+          "start" : 1629380005064,
+          "stop" : 1629380010520,
+          "duration" : 5456
+        }
+      }, {
+        "uid" : "cd7f7c254f58acb1",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/37//#testresult/cd7f7c254f58acb1",
+        "status" : "broken",
+        "statusDetails" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-368', ip: '10.1.0.93', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.twqQrI}, goog:chromeOptions: {debuggerAddress: localhost:39757}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1999de0394460386d871cc815904fc70",
+        "time" : {
+          "start" : 1629366998815,
+          "stop" : 1629367002945,
+          "duration" : 4130
+        }
+      }, {
+        "uid" : "74fdfb475ecdfc73",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/36//#testresult/74fdfb475ecdfc73",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-802', ip: '10.1.0.131', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.8xONEJ}, goog:chromeOptions: {debuggerAddress: localhost:44629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bc69af0f96f44149164bd6da2501cf6e",
+        "time" : {
+          "start" : 1629366661320,
+          "stop" : 1629366685925,
+          "duration" : 24605
+        }
+      }, {
+        "uid" : "b8f42e5ab1a8b0ed",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/35//#testresult/b8f42e5ab1a8b0ed",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"password\"]/div[1]/div/div[1]/input (tried for 20 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1629358403104,
+          "stop" : 1629358428623,
+          "duration" : 25519
+        }
+      }, {
+        "uid" : "9cedeee93763c9e4",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/34//#testresult/9cedeee93763c9e4",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"password\"]/div[1]/div/div[1]/input (tried for 20 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1629308407005,
+          "stop" : 1629308437390,
+          "duration" : 30385
+        }
+      }, {
+        "uid" : "bba2c18b1ed84eeb",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/33//#testresult/bba2c18b1ed84eeb",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"password\"]/div[1]/div/div[1]/input (tried for 20 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1629307505565,
+          "stop" : 1629307529551,
+          "duration" : 23986
+        }
+      }, {
+        "uid" : "5a642aeb6a590d6e",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/32//#testresult/5a642aeb6a590d6e",
+        "status" : "broken",
+        "statusDetails" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-548', ip: '10.1.1.80', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.58Rqye}, goog:chromeOptions: {debuggerAddress: localhost:40359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7f911016d5d79e4ed769129430813ddf",
+        "time" : {
+          "start" : 1629304588731,
+          "stop" : 1629304594515,
+          "duration" : 5784
+        }
+      }, {
+        "uid" : "e01caa81672626bb",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/31//#testresult/e01caa81672626bb",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-270', ip: '10.1.1.56', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5585fad90a63 <unknown>\n#1 0x5585fab05458 <unknown>\n#2 0x5585fab282e3 <unknown>\n#3 0x5585fab23e9f <unknown>\n#4 0x5585fab5db72 <unknown>\n#5 0x5585fab57fd3 <unknown>\n#6 0x5585fab2e514 <unknown>\n#7 0x5585fab2f505 <unknown>\n#8 0x5585fadbce2e <unknown>\n#9 0x5585fadd2886 <unknown>\n#10 0x5585fadbdd75 <unknown>\n#11 0x5585fadd3d94 <unknown>\n#12 0x5585fadb48eb <unknown>\n#13 0x5585fadeecd8 <unknown>\n#14 0x5585fadeee58 <unknown>\n#15 0x5585fae08dfd <unknown>\n#16 0x7fa259b5e609 start_thread\n",
+        "time" : {
+          "start" : 1629304319890,
+          "stop" : 1629304320068,
+          "duration" : 178
+        }
+      }, {
+        "uid" : "90590e6bd8a9515f",
+        "reportUrl" : "https://ylwpanda.github.io/vizi_bognar_monika_examination_paper_2021/30//#testresult/90590e6bd8a9515f",
+        "status" : "broken",
+        "statusDetails" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.1.15', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zXJ437}, goog:chromeOptions: {debuggerAddress: localhost:44017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6eaaf57711955d308c3fe2f6ae4f9979",
+        "time" : {
+          "start" : 1629294823965,
+          "stop" : 1629294828517,
+          "duration" : 4552
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1b3bc740ad872cdc.json",
+  "parameterValues" : [ ]
+}
