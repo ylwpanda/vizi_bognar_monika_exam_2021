@@ -42,14 +42,14 @@ public class LoginPage {
 
     //fill the password field with data
     public void setPassword(String password){
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(GOOGLE_PASSWORD_FIELD));
         driver.findElement(GOOGLE_PASSWORD_FIELD).sendKeys(password);
     }
 
     //click on next button at password page
     public SignedInIMDB clickLoginButton(){
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.findElement(GOOGLE_NEXT_NEXT_BUTTON).click();
         return new SignedInIMDB(driver);
     }
