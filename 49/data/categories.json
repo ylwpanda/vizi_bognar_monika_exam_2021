@@ -1,0 +1,196 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x561667546a63 <unknown>\n#1 0x5616672bb458 <unknown>\n#2 0x5616672e0902 <unknown>\n#3 0x5616672dc3bd <unknown>\n#4 0x5616672d9e9f <unknown>\n#5 0x561667313b72 <unknown>\n#6 0x56166730dfd3 <unknown>\n#7 0x5616672e4514 <unknown>\n#8 0x5616672e5505 <unknown>\n#9 0x561667572e2e <unknown>\n#10 0x561667588886 <unknown>\n#11 0x561667573d75 <unknown>\n#12 0x561667589d94 <unknown>\n#13 0x56166756a8eb <unknown>\n#14 0x5616675a4cd8 <unknown>\n#15 0x5616675a4e58 <unknown>\n#16 0x5616675bedfd <unknown>\n#17 0x7f05066c2609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-IMDB_011",
+        "uid" : "e012b0b74f625f4e",
+        "parentUid" : "cc9275b9123ec5449488f893127d56b0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629442747682,
+          "stop" : 1629442750882,
+          "duration" : 3200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc9275b9123ec5449488f893127d56b0"
+    }, {
+      "name" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5627ccb2ea63 <unknown>\n#1 0x5627cc8a3458 <unknown>\n#2 0x5627cc8c8902 <unknown>\n#3 0x5627cc8c43bd <unknown>\n#4 0x5627cc8c1e9f <unknown>\n#5 0x5627cc8fbb72 <unknown>\n#6 0x5627cc8f5fd3 <unknown>\n#7 0x5627cc8cc514 <unknown>\n#8 0x5627cc8cd505 <unknown>\n#9 0x5627ccb5ae2e <unknown>\n#10 0x5627ccb70886 <unknown>\n#11 0x5627ccb5bd75 <unknown>\n#12 0x5627ccb71d94 <unknown>\n#13 0x5627ccb528eb <unknown>\n#14 0x5627ccb8ccd8 <unknown>\n#15 0x5627ccb8ce58 <unknown>\n#16 0x5627ccba6dfd <unknown>\n#17 0x7f5a43626609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-IMDB_013",
+        "uid" : "f9133f3edbdceceb",
+        "parentUid" : "c597a595c67e5b438242feb94b425a67",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629442750960,
+          "stop" : 1629442751083,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c597a595c67e5b438242feb94b425a67"
+    }, {
+      "name" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55c7c8e01a63 <unknown>\n#1 0x55c7c8b76458 <unknown>\n#2 0x55c7c8b9b902 <unknown>\n#3 0x55c7c8b973bd <unknown>\n#4 0x55c7c8b94e9f <unknown>\n#5 0x55c7c8bceb72 <unknown>\n#6 0x55c7c8bc8fd3 <unknown>\n#7 0x55c7c8b9f514 <unknown>\n#8 0x55c7c8ba0505 <unknown>\n#9 0x55c7c8e2de2e <unknown>\n#10 0x55c7c8e43886 <unknown>\n#11 0x55c7c8e2ed75 <unknown>\n#12 0x55c7c8e44d94 <unknown>\n#13 0x55c7c8e258eb <unknown>\n#14 0x55c7c8e5fcd8 <unknown>\n#15 0x55c7c8e5fe58 <unknown>\n#16 0x55c7c8e79dfd <unknown>\n#17 0x7f82fdddf609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-IMDB_010",
+        "uid" : "289852b1843c6c4b",
+        "parentUid" : "3c0f93a8850716ea9b81c8706ed15f7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629442751091,
+          "stop" : 1629442751126,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c0f93a8850716ea9b81c8706ed15f7f"
+    }, {
+      "name" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x558c87a95a63 <unknown>\n#1 0x558c8780a458 <unknown>\n#2 0x558c8782f902 <unknown>\n#3 0x558c8782b3bd <unknown>\n#4 0x558c87828e9f <unknown>\n#5 0x558c87862b72 <unknown>\n#6 0x558c8785cfd3 <unknown>\n#7 0x558c87833514 <unknown>\n#8 0x558c87834505 <unknown>\n#9 0x558c87ac1e2e <unknown>\n#10 0x558c87ad7886 <unknown>\n#11 0x558c87ac2d75 <unknown>\n#12 0x558c87ad8d94 <unknown>\n#13 0x558c87ab98eb <unknown>\n#14 0x558c87af3cd8 <unknown>\n#15 0x558c87af3e58 <unknown>\n#16 0x558c87b0ddfd <unknown>\n#17 0x7fde0f8b5609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-IMDB_012",
+        "uid" : "746d36a7d576c20d",
+        "parentUid" : "c67250a2d720fd26b7e4b439d3a03b76",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629442751133,
+          "stop" : 1629442751168,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c67250a2d720fd26b7e4b439d3a03b76"
+    }, {
+      "name" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5629414b8a63 <unknown>\n#1 0x56294122d458 <unknown>\n#2 0x562941252902 <unknown>\n#3 0x56294124e3bd <unknown>\n#4 0x56294124be9f <unknown>\n#5 0x562941285b72 <unknown>\n#6 0x56294127ffd3 <unknown>\n#7 0x562941256514 <unknown>\n#8 0x562941257505 <unknown>\n#9 0x5629414e4e2e <unknown>\n#10 0x5629414fa886 <unknown>\n#11 0x5629414e5d75 <unknown>\n#12 0x5629414fbd94 <unknown>\n#13 0x5629414dc8eb <unknown>\n#14 0x562941516cd8 <unknown>\n#15 0x562941516e58 <unknown>\n#16 0x562941530dfd <unknown>\n#17 0x7ff01e344609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-IMDB_006",
+        "uid" : "7354d9d1ebf9089d",
+        "parentUid" : "b2e2d3db3a8692109330cb578a329607",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629442751177,
+          "stop" : 1629442751221,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2e2d3db3a8692109330cb578a329607"
+    }, {
+      "name" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5587c4398a63 <unknown>\n#1 0x5587c410d458 <unknown>\n#2 0x5587c4132902 <unknown>\n#3 0x5587c412e3bd <unknown>\n#4 0x5587c412be9f <unknown>\n#5 0x5587c4165b72 <unknown>\n#6 0x5587c415ffd3 <unknown>\n#7 0x5587c4136514 <unknown>\n#8 0x5587c4137505 <unknown>\n#9 0x5587c43c4e2e <unknown>\n#10 0x5587c43da886 <unknown>\n#11 0x5587c43c5d75 <unknown>\n#12 0x5587c43dbd94 <unknown>\n#13 0x5587c43bc8eb <unknown>\n#14 0x5587c43f6cd8 <unknown>\n#15 0x5587c43f6e58 <unknown>\n#16 0x5587c4410dfd <unknown>\n#17 0x7f4244385609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-IMDB_007",
+        "uid" : "10252cb3d847f3ff",
+        "parentUid" : "13c5bc67907f84fd18fb8a40ca8912b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629442751230,
+          "stop" : 1629442751279,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "13c5bc67907f84fd18fb8a40ca8912b1"
+    }, {
+      "name" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55fa07dc6a63 <unknown>\n#1 0x55fa07b3b458 <unknown>\n#2 0x55fa07b60902 <unknown>\n#3 0x55fa07b5c3bd <unknown>\n#4 0x55fa07b59e9f <unknown>\n#5 0x55fa07b93b72 <unknown>\n#6 0x55fa07b8dfd3 <unknown>\n#7 0x55fa07b64514 <unknown>\n#8 0x55fa07b65505 <unknown>\n#9 0x55fa07df2e2e <unknown>\n#10 0x55fa07e08886 <unknown>\n#11 0x55fa07df3d75 <unknown>\n#12 0x55fa07e09d94 <unknown>\n#13 0x55fa07dea8eb <unknown>\n#14 0x55fa07e24cd8 <unknown>\n#15 0x55fa07e24e58 <unknown>\n#16 0x55fa07e3edfd <unknown>\n#17 0x7f2fc75c0609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-IMDB_009",
+        "uid" : "3947db1362882a9f",
+        "parentUid" : "adc8b4fac24dc3140a4174bb43c81d64",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629442751298,
+          "stop" : 1629442751351,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "adc8b4fac24dc3140a4174bb43c81d64"
+    }, {
+      "name" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x564cdaa90a63 <unknown>\n#1 0x564cda805458 <unknown>\n#2 0x564cda82a902 <unknown>\n#3 0x564cda8263bd <unknown>\n#4 0x564cda823e9f <unknown>\n#5 0x564cda85db72 <unknown>\n#6 0x564cda857fd3 <unknown>\n#7 0x564cda82e514 <unknown>\n#8 0x564cda82f505 <unknown>\n#9 0x564cdaabce2e <unknown>\n#10 0x564cdaad2886 <unknown>\n#11 0x564cdaabdd75 <unknown>\n#12 0x564cdaad3d94 <unknown>\n#13 0x564cdaab48eb <unknown>\n#14 0x564cdaaeecd8 <unknown>\n#15 0x564cdaaeee58 <unknown>\n#16 0x564cdab08dfd <unknown>\n#17 0x7f6fa6fb0609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-IMDB_003",
+        "uid" : "4262cf93be9a4708",
+        "parentUid" : "17cbcdeebc64e7a88de0ec9a280d8121",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629442751365,
+          "stop" : 1629442751399,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "17cbcdeebc64e7a88de0ec9a280d8121"
+    }, {
+      "name" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5567fe39ca63 <unknown>\n#1 0x5567fe111458 <unknown>\n#2 0x5567fe136902 <unknown>\n#3 0x5567fe1323bd <unknown>\n#4 0x5567fe12fe9f <unknown>\n#5 0x5567fe169b72 <unknown>\n#6 0x5567fe163fd3 <unknown>\n#7 0x5567fe13a514 <unknown>\n#8 0x5567fe13b505 <unknown>\n#9 0x5567fe3c8e2e <unknown>\n#10 0x5567fe3de886 <unknown>\n#11 0x5567fe3c9d75 <unknown>\n#12 0x5567fe3dfd94 <unknown>\n#13 0x5567fe3c08eb <unknown>\n#14 0x5567fe3facd8 <unknown>\n#15 0x5567fe3fae58 <unknown>\n#16 0x5567fe414dfd <unknown>\n#17 0x7faafc311609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-IMDB_008",
+        "uid" : "66655ef2d67c8daf",
+        "parentUid" : "1b632821c88dd5bf22b5615922bdc591",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629442751412,
+          "stop" : 1629442751452,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b632821c88dd5bf22b5615922bdc591"
+    }, {
+      "name" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x556bf4b6da63 <unknown>\n#1 0x556bf48e2458 <unknown>\n#2 0x556bf4907902 <unknown>\n#3 0x556bf49033bd <unknown>\n#4 0x556bf4900e9f <unknown>\n#5 0x556bf493ab72 <unknown>\n#6 0x556bf4934fd3 <unknown>\n#7 0x556bf490b514 <unknown>\n#8 0x556bf490c505 <unknown>\n#9 0x556bf4b99e2e <unknown>\n#10 0x556bf4baf886 <unknown>\n#11 0x556bf4b9ad75 <unknown>\n#12 0x556bf4bb0d94 <unknown>\n#13 0x556bf4b918eb <unknown>\n#14 0x556bf4bcbcd8 <unknown>\n#15 0x556bf4bcbe58 <unknown>\n#16 0x556bf4be5dfd <unknown>\n#17 0x7fb7bd2e4609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-IMDB_014",
+        "uid" : "588678c59b06833b",
+        "parentUid" : "a7e62d1a67c9bbf1aa6eb1687e558ed9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629442751463,
+          "stop" : 1629442751516,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7e62d1a67c9bbf1aa6eb1687e558ed9"
+    }, {
+      "name" : "unknown error: cannot create default profile directory\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.155', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x56150e6d8a63 <unknown>\n#1 0x56150e44d458 <unknown>\n#2 0x56150e472902 <unknown>\n#3 0x56150e46e3bd <unknown>\n#4 0x56150e46be9f <unknown>\n#5 0x56150e4a5b72 <unknown>\n#6 0x56150e49ffd3 <unknown>\n#7 0x56150e476514 <unknown>\n#8 0x56150e477505 <unknown>\n#9 0x56150e704e2e <unknown>\n#10 0x56150e71a886 <unknown>\n#11 0x56150e705d75 <unknown>\n#12 0x56150e71bd94 <unknown>\n#13 0x56150e6fc8eb <unknown>\n#14 0x56150e736cd8 <unknown>\n#15 0x56150e736e58 <unknown>\n#16 0x56150e750dfd <unknown>\n#17 0x7fbcfef4d609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-IMDB_015",
+        "uid" : "c45b68c37e3c7681",
+        "parentUid" : "e29e09cf43ba6006c7de55cf6deed56e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629442751521,
+          "stop" : 1629442751574,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e29e09cf43ba6006c7de55cf6deed56e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
