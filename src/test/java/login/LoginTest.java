@@ -24,16 +24,16 @@ public class LoginTest extends BaseTest {
         TakeScreenshot();
         loginPage.setSingIn();
         TakeScreenshot();
-        //loginPage.setEmail(email);
-        //TakeScreenshot();
-        //loginPage.setPassword(password);
-        //TakeScreenshot();
-        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
-        //TakeScreenshot();
-        //signedInIMDB.getLoginCheck();
-        //TakeScreenshot();
-        //Assertions.assertTrue(signedInIMDB.getLoginCheck().contains("Mónika"), "You are not logged in!");
-        //TakeScreenshot();
+        loginPage.setEmail(email);
+        TakeScreenshot();
+        loginPage.setPassword(password);
+        TakeScreenshot();
+        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        TakeScreenshot();
+        signedInIMDB.getLoginCheck();
+        TakeScreenshot();
+        Assertions.assertTrue(signedInIMDB.getLoginCheck().contains("Mónika"), "You are not logged in!");
+        TakeScreenshot();
     }
 
     @Step("TakeScreenshot")

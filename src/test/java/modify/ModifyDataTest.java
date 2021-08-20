@@ -23,9 +23,9 @@ public class ModifyDataTest extends BaseTest {
     public void editProfileUserIDTest() {
         LoginPage loginPage = homePage.clickSignInPage();
         loginPage.setSingIn();
-        //loginPage.setEmail(email);
-        //loginPage.setPassword(password);
-        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        loginPage.setEmail(email);
+        loginPage.setPassword(password);
+        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.editProfileUserID(newUserID);
         Assertions.assertEquals(MODIFIED_ID, getDriver().findElement(By.xpath("//*[@id=\"main\"]/div/div/div/h2")).getText());
@@ -37,9 +37,9 @@ public class ModifyDataTest extends BaseTest {
     public void writeBackNameTest() {
         LoginPage loginPage = homePage.clickSignInPage();
         loginPage.setSingIn();
-        //loginPage.setEmail(email);
-        //loginPage.setPassword(password);
-        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        loginPage.setEmail(email);
+        loginPage.setPassword(password);
+        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.editProfileUserID(oldUserID);
         Assertions.assertEquals(EXIST_ID, getDriver().findElement(By.xpath("//*[@id=\"main\"]/div/div/div/h2")).getText());
@@ -51,9 +51,9 @@ public class ModifyDataTest extends BaseTest {
     public void editBioTest() {
         LoginPage loginPage = homePage.clickSignInPage();
         loginPage.setSingIn();
-        //loginPage.setEmail(email);
-        //loginPage.setPassword(password);
-        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        loginPage.setEmail(email);
+        loginPage.setPassword(password);
+        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.editBio(bioText);
     }
@@ -64,9 +64,9 @@ public class ModifyDataTest extends BaseTest {
     public void deleteBioTest() {
         LoginPage loginPage = homePage.clickSignInPage();
         loginPage.setSingIn();
-        //loginPage.setEmail(email);
-        //loginPage.setPassword(password);
-        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        loginPage.setEmail(email);
+        loginPage.setPassword(password);
+        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         modifyData = new ModifyData(super.getDriver());
         modifyData.deleteBio();
     }

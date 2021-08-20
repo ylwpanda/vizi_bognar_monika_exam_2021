@@ -17,9 +17,9 @@ public class LogoutTest extends BaseTest {
     public void testSuccessfulLogout(){
         LoginPage loginPage = homePage.clickSignInPage();
         loginPage.setSingIn();
-        //loginPage.setEmail(email);
-        //loginPage.setPassword(password);
-        //SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
+        loginPage.setEmail(email);
+        loginPage.setPassword(password);
+        SignedInIMDB signedInIMDB = loginPage.clickLoginButton();
         LogoutPage logoutPage = new LogoutPage(super.getDriver());
         logoutPage.clickProfileButton();
         logoutPage.clickLogoutButton();
