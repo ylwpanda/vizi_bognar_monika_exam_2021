@@ -3,32 +3,14 @@
 Vizi-Bognár Mónika - Junior automata tesztelő - Codecool - Vizsgaremek 2021
 
 
-A) Web alkalmazás felület tesztelési vizsgaremek vizsgarész
-A vizsgázónak a vizsgát megelőzően egy komplex web alkalmazás alapján felület
-tesztelési projektet kell elkészítenie, saját döntése alapján egy egyénileg választott
-web alkalmazás alapján.
-A választott teszt alkalmazásnak legalább az alábbi funkcióit kell lefedni tesztekkel:
- Regisztráció ------ csak manuálsian
- Bejelentkezés ------ kész
- Adatkezelési nyilatkozat használata ------- kész
- Adatok listázása ------- kész
- Több oldalas lista bejárása --- kész
- Új adat bevitel ------- kész
- Ismételt és sorozatos adatbevitel adatforrásból ------ kész
- Meglévő adat módosítás -------- kész
- Adat vagy adatok törlése -------- kész
- Adatok lementése felületről -------- kész
- Kijelentkezés ------- kész
-A vizsgaremek benyújtásának módja:
-7/10
-A kész csomagot a vizsga előtt minimum 7 nappal kell a vizsgabizottsághoz
-benyújtani GitHub vagy más hasonló szolgáltatás segítségével megosztva. A
-megosztott anyagnak tartalmaznia kell az alábbiakat:
- A tesztek forráskódja
- A tesztelt alkalmazás elérési helye (GitHub vagy hasonló) és
-üzembehelyezési módja (Readme.MD vagy más dokumentáció az
-alkalmazás telepítése / elindítási módja)
- A tesztek dokumentációja a forráskódban és/vagy teszt dokumentációban
-(XLS vagy más táblázatos fájlok formájában)
- Tesztek futtatásának manuális és automatizált módja
- Valamilyen formában vezetői tesztjelentés
+A tesztek futtatásához JAVA szükséges.
+
+Vizsgaremeknek az IMDb oldalára esett a választásom, tanulmányaim során szerencsém volt jól megismerni ezt az oldalt. 
+A teszteseteket a megadott kritériumoknak megfelelően, de a tesztelési alapelveket is figyelembe véve írtam meg.
+
+Amennyiben a teszteket a saját gépén is futtatni szeretné, a letöltés után IntelliJ IDEA-ben való futtatás javasolt.
+A Webdriver Manager használatának köszönhetően, bármilyen operációs rendszeren futtathatóak a tesztek.
+
+Allure riportot excel és .png formátumban az allure_riport mappában lehet megtekinteni. A teszteseteket tartalmazó 
+excel szintén a projekten belül található vizi_bognár_mónika_vizsgaremek_tesztmenedzser.xls néven.
+
