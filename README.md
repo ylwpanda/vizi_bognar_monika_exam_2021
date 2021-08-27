@@ -14,3 +14,4 @@ A Webdriver Manager használatának köszönhetően, bármilyen operációs rend
 Allure riportot excel és .png formátumban az allure_riport mappában lehet megtekinteni. A teszteseteket tartalmazó 
 excel szintén a projekten belül található vizi_bognár_mónika_vizsgaremek_tesztmenedzser.xls néven.
 
+Github repo elérési linkje: https://github.com/ylwpanda/vizi_bognar_monika_exam_2021
